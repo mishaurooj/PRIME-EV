@@ -1,0 +1,3 @@
+https://www.kaggle.com/datasets/vivekattri/global-ev-charging-stations-dataset
+About Dataset
+This dataset contains information on electric vehicle (EV) charging stations worldwide, featuring over 5000 entries. It includes key details such as station location, charger types (AC Level 1, AC Level 2, DC Fast Charger), charging capacity (kW), station operator, and availability. Additional attributes like connector types, installation year, renewable energy usage, customer reviews, parking spots, and maintenance frequency make it a valuable resource for analysis, optimization, and planning of EV infrastructure. Ideal for building predictive models, route planning, and energy consumption studies.
