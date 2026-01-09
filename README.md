@@ -92,17 +92,8 @@ table.primeev th { background:#f2f2f2; }
 .note { font-size:13px; color:#555; margin-top:6px; }
 </style>
 
-### Table 1: Recent EV Charging Frameworks
 
-<div class="table-container">
-<table class="primeev">
-<tr><th>Model</th><th>DT</th><th>SR</th><th>PR</th><th>DR</th><th>ER</th><th>UO</th></tr>
-<tr><td>Prior Works</td><td>✗</td><td>✗</td><td>✗</td><td>✗</td><td>✗</td><td>✗</td></tr>
-<tr class="best"><td>PRIME-EV</td><td>✓</td><td>✓</td><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr>
-</table>
-</div>
-
-### Table 2: Architecture-Oriented Ablation Summary
+### Architecture-Oriented Ablation Summary
 
 <div class="table-container">
 <table class="primeev">
