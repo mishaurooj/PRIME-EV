@@ -21,76 +21,51 @@ PRIME-EV introduces a unified probabilistic learning framework that jointly inte
 ![PRIME-EV Architecture](Results/Figures/prime_ev_architecture.png)
 
 The framework consists of four tightly coupled modules:
-- **LISE**: Latent Infrastructure State Encoder
-- **PDDM**: Probabilistic Degradation and Disruption Model
-- **PPN**: Auxiliary Demand-Sensitive Performance Network
-- **RUN**: Ranking Utility Network
+- **LISE**: Latent Infrastructure State Encoder  
+- **PDDM**: Probabilistic Degradation and Disruption Model  
+- **PPN**: Auxiliary Demand-Sensitive Performance Network  
+- **RUN**: Ranking Utility Network  
 
 ---
 
 ## Key Contributions
 
-- Structured latent infrastructure encoding capturing cross-attribute interactions.
-- Explicit probabilistic modeling of operational risk and uncertainty.
-- Auxiliary demand-aware regularization without inference contamination.
-- Ranking-aware learning integrated directly into training.
-- Unified end-to-end optimization with deployment and ethical AI constraints.
+- Structured latent infrastructure encoding capturing cross-attribute interactions  
+- Explicit probabilistic modeling of operational risk and uncertainty  
+- Auxiliary demand-aware regularization without inference contamination  
+- Ranking-aware learning integrated directly into training  
+- Unified end-to-end optimization with deployment and ethical AI constraints  
 
 ---
 
-<hr>
-
 ## 🌍 Dataset Description
 
-<div style="
-  background: linear-gradient(135deg, #f0f9ff, #e0f2fe);
-  border-left: 6px solid #0284c7;
-  padding: 18px;
-  border-radius: 8px;
-  margin-top: 20px;
-">
+<div style="background:#f0f9ff;border-left:6px solid #0284c7;padding:18px;border-radius:8px">
 
-<h3 style="margin-top:0;">Global EV Charging Stations Dataset</h3>
+<b>Global EV Charging Stations Dataset (Kaggle)</b><br><br>
 
-<p>
-This work uses the <b>Global EV Charging Stations Dataset</b>, a publicly available dataset hosted on Kaggle, 
-providing comprehensive information on electric vehicle (EV) charging infrastructure worldwide.
-</p>
-
-<p>
-📊 The dataset contains <b>5,000+ charging station records</b>, covering a wide range of geographic regions 
-and operational characteristics. Each entry represents a real-world charging station with rich metadata 
-suitable for infrastructure analytics, optimization, and decision-support modeling.
-</p>
+This work uses the public Global EV Charging Stations Dataset containing more than <b>5,000 charging station records</b> worldwide.
+The dataset includes spatial, technical, operational, and sustainability-related attributes that support large-scale EV infrastructure analysis.
 
 <ul>
-  <li><b>📍 Spatial Information:</b> Station location and geographic attributes</li>
-  <li><b>⚡ Charger Types:</b> AC Level 1, AC Level 2, and DC Fast Chargers</li>
-  <li><b>🔌 Technical Capacity:</b> Charging power ratings (kW)</li>
-  <li><b>🏢 Operator Details:</b> Station operator and ownership information</li>
-  <li><b>🟢 Availability:</b> Public access status and operational availability</li>
-  <li><b>🔗 Connector Types:</b> Supported charging connectors</li>
-  <li><b>📅 Infrastructure Age:</b> Installation year of charging stations</li>
-  <li><b>🌱 Sustainability Indicators:</b> Renewable energy usage flags</li>
-  <li><b>⭐ User Feedback:</b> Customer ratings and reviews</li>
-  <li><b>🅿️ Parking & Maintenance:</b> Number of parking spots and maintenance frequency</li>
+<li><b>Location:</b> Geographic coordinates and spatial indicators</li>
+<li><b>Charger Types:</b> AC Level 1, AC Level 2, DC Fast Chargers</li>
+<li><b>Capacity:</b> Charging power (kW)</li>
+<li><b>Operator:</b> Ownership and management details</li>
+<li><b>Availability:</b> Public access and station status</li>
+<li><b>Connectors:</b> Supported charging interfaces</li>
+<li><b>Installation Year:</b> Infrastructure age</li>
+<li><b>Renewable Usage:</b> Sustainability indicators</li>
+<li><b>User Feedback:</b> Ratings and reviews</li>
+<li><b>Maintenance:</b> Parking capacity and service frequency</li>
 </ul>
 
-<p>
-🧠 These attributes make the dataset particularly suitable for <b>predictive modeling, infrastructure planning, 
-ethical AI analysis, demand-aware optimization, and energy sustainability studies</b>.
-</p>
-
-<p style="margin-bottom:0;">
-🔗 <b>Dataset Link:</b>
-<a href="https://www.kaggle.com/datasets/vivekattri/global-ev-charging-stations-dataset" target="_blank">
+Dataset link:  
 https://www.kaggle.com/datasets/vivekattri/global-ev-charging-stations-dataset
-</a>
-</p>
 
 </div>
 
-<hr>
+---
 
 ## Comparison with Prior EV Charging Frameworks
 
@@ -102,127 +77,42 @@ https://www.kaggle.com/datasets/vivekattri/global-ev-charging-stations-dataset
 | Ranking-only Models | ✗ | ✗ | ✗ | ✗ | ✓ | ✗ |
 | **PRIME-EV** | **✓** | **✓** | **✓** | **✓** | **✓** | **✓** |
 
-<hr>
-<style>
-.table-container {
-  overflow-x: auto;
-  margin: 30px 0;
-}
-
-table.primeev {
-  border-collapse: collapse;
-  width: 100%;
-  font-size: 14px;
-  text-align: center;
-}
-
-table.primeev caption {
-  caption-side: top;
-  font-weight: bold;
-  font-size: 15px;
-  margin-bottom: 8px;
-}
-
-table.primeev th, table.primeev td {
-  border: 1px solid #cccccc;
-  padding: 6px 8px;
-}
-
-table.primeev th {
-  background-color: #f2f2f2;
-  font-weight: bold;
-}
-
-.best {
-  background-color: #d8f3dc;
-  font-weight: bold;
-}
-
-.worst {
-  background-color: #ffe5e5;
-}
-
-.note {
-  font-size: 13px;
-  margin-top: 6px;
-  color: #555;
-}
-</style>
-
 ---
 
-### **Table 1: Comparison with Recent EV Charging Frameworks**
+## 📊 Detailed Experimental Tables
+
+<!-- GitHub-safe CSS -->
+<style>
+.table-container { overflow-x:auto; margin:20px 0; }
+table.primeev { border-collapse:collapse; width:100%; font-size:14px; text-align:center; }
+table.primeev th, table.primeev td { border:1px solid #ccc; padding:6px; }
+table.primeev th { background:#f2f2f2; }
+.best { background:#d8f3dc; font-weight:bold; }
+.worst { background:#ffe5e5; }
+.note { font-size:13px; color:#555; margin-top:6px; }
+</style>
+
+### Table 1: Recent EV Charging Frameworks
 
 <div class="table-container">
 <table class="primeev">
-<caption>DT: Digital Twin, SR: Structured Representation, PR: Probabilistic Risk, DR: Demand Regularization, ER: End-to-End Ranking, UO: Unified Optimization</caption>
-<tr>
-<th>Model</th><th>DT</th><th>SR</th><th>PR</th><th>DR</th><th>ER</th><th>UO</th>
-</tr>
-<tr><td>Prior Works (2016–2022)</td><td>✗</td><td>✗</td><td>✗</td><td>✗</td><td>✗</td><td>✗</td></tr>
-<tr><td>DT-based Models (2023)</td><td>✓</td><td>✗</td><td>✗</td><td>✗</td><td>✗</td><td>✗</td></tr>
-<tr><td>Structured-only Models (2024–25)</td><td>✗</td><td>✓</td><td>✗</td><td>✗</td><td>✗</td><td>✗</td></tr>
-<tr><td>Ranking-only Models (2024–25)</td><td>✗</td><td>✗</td><td>✗</td><td>✗</td><td>✓</td><td>✗</td></tr>
+<tr><th>Model</th><th>DT</th><th>SR</th><th>PR</th><th>DR</th><th>ER</th><th>UO</th></tr>
+<tr><td>Prior Works</td><td>✗</td><td>✗</td><td>✗</td><td>✗</td><td>✗</td><td>✗</td></tr>
 <tr class="best"><td>PRIME-EV</td><td>✓</td><td>✓</td><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr>
 </table>
 </div>
 
----
-
-### **Table 2: Architecture-Oriented Ablation Analysis**
+### Table 2: Architecture-Oriented Ablation Summary
 
 <div class="table-container">
 <table class="primeev">
-<caption>Relative Deviation (Δ) and Interpretation</caption>
-<tr>
-<th>Module</th><th>Variant</th><th>Loss</th><th>MSE</th><th>Δ</th><th>Interpretation</th>
-</tr>
-
-<tr><td rowspan="3">LISE</td><td>Full</td><td>0.7116</td><td>0.0182</td><td>–</td><td>Reference</td></tr>
-<tr><td>No CNN</td><td class="worst">0.7601</td><td class="worst">0.0668</td><td>↓ 6.82%</td><td>Loss of local interactions</td></tr>
-<tr><td>No Attention</td><td class="best">0.7006</td><td class="best">0.0073</td><td>↑ 1.55%</td><td>Reduced robustness</td></tr>
-
-<tr><td rowspan="3">PDDM</td><td>Full</td><td>0.7320</td><td>0.0387</td><td>–</td><td>Probabilistic baseline</td></tr>
-<tr><td>Deterministic</td><td>0.7099</td><td>0.0166</td><td>↑ 3.02%</td><td>Overconfident risk</td></tr>
-<tr><td>No Variance</td><td>0.7115</td><td>0.0181</td><td>↑ 2.78%</td><td>Uncertainty removed</td></tr>
-
-<tr><td rowspan="3">RUN</td><td>Full</td><td>0.6976</td><td class="best">0.0043</td><td>–</td><td>Ranking-aware baseline</td></tr>
-<tr><td>Cost-only</td><td>0.7192</td><td>0.0054</td><td>↓ 3.09%</td><td>Cost bias</td></tr>
-<tr><td>Pointwise</td><td class="best">0.0089</td><td>0.0087</td><td class="best">↑ 98.7%</td><td>Ranking collapse</td></tr>
+<tr><th>Module</th><th>Variant</th><th>Loss</th><th>MSE</th><th>Interpretation</th></tr>
+<tr><td>LISE</td><td>No CNN</td><td class="worst">0.7601</td><td class="worst">0.0668</td><td>Loss of interactions</td></tr>
+<tr><td>PDDM</td><td>Deterministic</td><td>0.7099</td><td>0.0166</td><td>Overconfident risk</td></tr>
+<tr><td>RUN</td><td>Pointwise</td><td class="best">0.0089</td><td>0.0087</td><td>Ranking collapse</td></tr>
 </table>
-
-<div class="note">
-Green indicates best values; red indicates worst values within each module.
+<div class="note">Green = best, Red = worst</div>
 </div>
-</div>
-
----
-
-### **Table 3: Post-Training Optimization, Deployment & Ethical Evaluation**
-
-<div class="table-container">
-<table class="primeev">
-<caption>System-Level Deployment and Ethical Performance</caption>
-<tr>
-<th>Model</th><th>SSI</th><th>Ethical Fairness</th><th>Risk Balance</th><th>Latency (ms)</th><th>Composite</th>
-</tr>
-
-<tr><td>LISE-No Attention</td><td class="worst">0.1641</td><td class="best">0.6641</td><td>0.0432</td><td>0.48</td><td>0.41</td></tr>
-<tr><td>PDDM-Deterministic</td><td>-0.1260</td><td class="worst">0.3740</td><td>0.0373</td><td>0.56</td><td class="worst">0.33</td></tr>
-<tr><td>PPN-Static</td><td>0.1413</td><td>0.6413</td><td>0.0363</td><td>0.52</td><td>0.44</td></tr>
-
-<tr class="best">
-<td>PRIME-EV (Full)</td>
-<td>-0.0100</td>
-<td>0.4900</td>
-<td>0.0379</td>
-<td>0.5877</td>
-<td>0.62</td>
-</tr>
-</table>
-</div>
-
-<hr>
 
 ---
 
@@ -230,68 +120,35 @@ Green indicates best values; red indicates worst values within each module.
 
 ![Ablation Analysis](Results/Figures/fig_ablation_prime_ev.png)
 
-Extensive ablations demonstrate that reducing loss alone does not guarantee valid station prioritization. Removing key modules degrades ranking stability, deployment robustness, or ethical behavior even when predictive loss decreases.
-
 ---
 
 ## Optimization, Deployment & Ethical Evaluation (480+ Configurations)
 
-![Radar None](Results/Figures/Radar_O1_None.png)
-![Radar Pruning](Results/Figures/Radar_O2_Pruning.png)
-![Radar Quantization](Results/Figures/Radar_O3_Quantization.png)
+![Radar None](Results/Figures/Radar_O1_None.png)  
+![Radar Pruning](Results/Figures/Radar_O2_Pruning.png)  
+![Radar Quantization](Results/Figures/Radar_O3_Quantization.png)  
 ![Radar Pruning+Quant](Results/Figures/Radar_O4_Pruning+Quant.png)
-
-PRIME-EV is evaluated across more than 480 model–optimization–ethics configurations, including pruning and quantization. The framework achieves the lowest system stress, balanced ethical fairness, and stable sub-millisecond inference latency.
-
----
-
-## Repository Structure
-
-```
-PRIME-EV/
-├── Code/
-│   ├── PRIME_EV_FULL.ipynb
-│   └── optimization_ethics.ipynb
-├── Dataset/
-│   └── ev_charging_stations.csv
-├── Results/
-│   └── Figures/
-├── Trained-model-weights/
-├── prime-evblock.pptx
-├── LICENSE
-└── README.md
-```
 
 ---
 
 ## How to Run
 
-### Install Dependencies
-```
+```bash
 pip install torch numpy pandas scikit-learn matplotlib scipy
-```
-
-### Train PRIME-EV and Ablations
-```
 jupyter notebook Code/PRIME_EV_FULL.ipynb
-```
-
-### Run Optimization and Ethical Analysis
-```
-jupyter notebook Code/optimization_ethics.ipynb
 ```
 
 ---
 
 ## License
 
-This project is released under the Apache 2.0 License.
+Apache 2.0 License
 
 ---
 
 ## Citation
 
-```
+```bibtex
 @article{prime_ev,
   title   = {Probabilistic Representation--Integrated Modeling for EV Charging Infrastructure Placement and Recommendation},
   author  = {Khan, Ajmal and Khan, Misha Urooj and Kaleem, Zeeshan},
