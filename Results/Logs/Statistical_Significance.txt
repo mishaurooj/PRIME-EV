@@ -1,0 +1,9 @@
+O2_Pruning vs O1 | SSI | t=0.396 p=0.692169
+O2_Pruning vs O1 | EthicalFairness | t=nan p=nan
+O2_Pruning vs O1 | DeploymentEfficiency_ms | t=12.202 p=0.000000
+O3_Quantization vs O1 | SSI | t=0.147 p=0.883483
+O3_Quantization vs O1 | EthicalFairness | t=nan p=nan
+O3_Quantization vs O1 | DeploymentEfficiency_ms | t=-0.064 p=0.948890
+O4_Pruning+Quant vs O1 | SSI | t=0.396 p=0.692588
+O4_Pruning+Quant vs O1 | EthicalFairness | t=nan p=nan
+O4_Pruning+Quant vs O1 | DeploymentEfficiency_ms | t=26.076 p=0.000000

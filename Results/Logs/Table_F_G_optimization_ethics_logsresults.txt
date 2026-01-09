@@ -1,0 +1,5283 @@
+PRIME-EV POST-TRAINING OPTIMIZATION & ETHICS RESULTS
+==========================================================================================
+
+Model: A1-NoCNN.pt
+Optimization: O1_None
+Ethics: E1_NoRiskConstraint
+SSI: -0.000404
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.055731
+EthicalFairness: 0.499596
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.535011
+------------------------------------------------------------
+
+Model: A1-NoCNN.pt
+Optimization: O1_None
+Ethics: E2_NoOperatorBalance
+SSI: -0.008347
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.052154
+EthicalFairness: 0.491653
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.903845
+------------------------------------------------------------
+
+Model: A1-NoCNN.pt
+Optimization: O1_None
+Ethics: E3_NoLatentFairness
+SSI: -0.003374
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.054416
+EthicalFairness: 0.496626
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.895262
+------------------------------------------------------------
+
+Model: A1-NoCNN.pt
+Optimization: O1_None
+Ethics: E4_FullEthicalModel
+SSI: -0.000970
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.050964
+EthicalFairness: 0.499030
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.210451
+------------------------------------------------------------
+
+Model: A1-NoCNN.pt
+Optimization: O2_Pruning
+Ethics: E1_NoRiskConstraint
+SSI: 0.037955
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.037321
+EthicalFairness: 0.537955
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.347614
+------------------------------------------------------------
+
+Model: A1-NoCNN.pt
+Optimization: O2_Pruning
+Ethics: E2_NoOperatorBalance
+SSI: -0.098850
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.033634
+EthicalFairness: 0.401150
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.361443
+------------------------------------------------------------
+
+Model: A1-NoCNN.pt
+Optimization: O2_Pruning
+Ethics: E3_NoLatentFairness
+SSI: 0.052076
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.042017
+EthicalFairness: 0.552076
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.360012
+------------------------------------------------------------
+
+Model: A1-NoCNN.pt
+Optimization: O2_Pruning
+Ethics: E4_FullEthicalModel
+SSI: -0.019033
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.031259
+EthicalFairness: 0.480967
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.025677
+------------------------------------------------------------
+
+Model: A1-NoCNN.pt
+Optimization: O3_Quantization
+Ethics: E1_NoRiskConstraint
+SSI: -0.011368
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.051542
+EthicalFairness: 0.488632
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.260592
+------------------------------------------------------------
+
+Model: A1-NoCNN.pt
+Optimization: O3_Quantization
+Ethics: E2_NoOperatorBalance
+SSI: -0.005054
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.053393
+EthicalFairness: 0.494946
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.283957
+------------------------------------------------------------
+
+Model: A1-NoCNN.pt
+Optimization: O3_Quantization
+Ethics: E3_NoLatentFairness
+SSI: -0.009038
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.052451
+EthicalFairness: 0.490962
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.429869
+------------------------------------------------------------
+
+Model: A1-NoCNN.pt
+Optimization: O3_Quantization
+Ethics: E4_FullEthicalModel
+SSI: -0.012988
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.055180
+EthicalFairness: 0.487012
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.405073
+------------------------------------------------------------
+
+Model: A1-NoCNN.pt
+Optimization: O4_Pruning+Quant
+Ethics: E1_NoRiskConstraint
+SSI: 0.046037
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.014467
+EthicalFairness: 0.546037
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.480890
+------------------------------------------------------------
+
+Model: A1-NoCNN.pt
+Optimization: O4_Pruning+Quant
+Ethics: E2_NoOperatorBalance
+SSI: 0.021984
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.014274
+EthicalFairness: 0.521984
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.294209
+------------------------------------------------------------
+
+Model: A1-NoCNN.pt
+Optimization: O4_Pruning+Quant
+Ethics: E3_NoLatentFairness
+SSI: -0.017704
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.010564
+EthicalFairness: 0.482296
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.515461
+------------------------------------------------------------
+
+Model: A1-NoCNN.pt
+Optimization: O4_Pruning+Quant
+Ethics: E4_FullEthicalModel
+SSI: 0.060859
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.025943
+EthicalFairness: 0.560859
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.412226
+------------------------------------------------------------
+
+Model: A1-Full.pt
+Optimization: O1_None
+Ethics: E1_NoRiskConstraint
+SSI: 0.016515
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.050821
+EthicalFairness: 0.516515
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.372410
+------------------------------------------------------------
+
+Model: A1-Full.pt
+Optimization: O1_None
+Ethics: E2_NoOperatorBalance
+SSI: 0.012425
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.047407
+EthicalFairness: 0.512425
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.564098
+------------------------------------------------------------
+
+Model: A1-Full.pt
+Optimization: O1_None
+Ethics: E3_NoLatentFairness
+SSI: 0.020105
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.046104
+EthicalFairness: 0.520105
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.532150
+------------------------------------------------------------
+
+Model: A1-Full.pt
+Optimization: O1_None
+Ethics: E4_FullEthicalModel
+SSI: 0.013766
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.052256
+EthicalFairness: 0.513766
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.308037
+------------------------------------------------------------
+
+Model: A1-Full.pt
+Optimization: O2_Pruning
+Ethics: E1_NoRiskConstraint
+SSI: 0.081757
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.037969
+EthicalFairness: 0.581757
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.302792
+------------------------------------------------------------
+
+Model: A1-Full.pt
+Optimization: O2_Pruning
+Ethics: E2_NoOperatorBalance
+SSI: 0.112589
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.025091
+EthicalFairness: 0.612589
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.341415
+------------------------------------------------------------
+
+Model: A1-Full.pt
+Optimization: O2_Pruning
+Ethics: E3_NoLatentFairness
+SSI: -0.042392
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.029246
+EthicalFairness: 0.457608
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.123905
+------------------------------------------------------------
+
+Model: A1-Full.pt
+Optimization: O2_Pruning
+Ethics: E4_FullEthicalModel
+SSI: 0.008100
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.027748
+EthicalFairness: 0.508100
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.239061
+------------------------------------------------------------
+
+Model: A1-Full.pt
+Optimization: O3_Quantization
+Ethics: E1_NoRiskConstraint
+SSI: 0.011120
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.051403
+EthicalFairness: 0.511120
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.302076
+------------------------------------------------------------
+
+Model: A1-Full.pt
+Optimization: O3_Quantization
+Ethics: E2_NoOperatorBalance
+SSI: 0.014739
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.047693
+EthicalFairness: 0.514739
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.272989
+------------------------------------------------------------
+
+Model: A1-Full.pt
+Optimization: O3_Quantization
+Ethics: E3_NoLatentFairness
+SSI: 0.021281
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.044442
+EthicalFairness: 0.521281
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.295401
+------------------------------------------------------------
+
+Model: A1-Full.pt
+Optimization: O3_Quantization
+Ethics: E4_FullEthicalModel
+SSI: 0.011284
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.048074
+EthicalFairness: 0.511284
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.462055
+------------------------------------------------------------
+
+Model: A1-Full.pt
+Optimization: O4_Pruning+Quant
+Ethics: E1_NoRiskConstraint
+SSI: 0.022181
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.013458
+EthicalFairness: 0.522181
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.455856
+------------------------------------------------------------
+
+Model: A1-Full.pt
+Optimization: O4_Pruning+Quant
+Ethics: E2_NoOperatorBalance
+SSI: 0.039391
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.016402
+EthicalFairness: 0.539391
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.289679
+------------------------------------------------------------
+
+Model: A1-Full.pt
+Optimization: O4_Pruning+Quant
+Ethics: E3_NoLatentFairness
+SSI: -0.093220
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.006234
+EthicalFairness: 0.406780
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.298977
+------------------------------------------------------------
+
+Model: A1-Full.pt
+Optimization: O4_Pruning+Quant
+Ethics: E4_FullEthicalModel
+SSI: 0.051240
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.019279
+EthicalFairness: 0.551240
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.436068
+------------------------------------------------------------
+
+Model: A1-NoAtt.pt
+Optimization: O1_None
+Ethics: E1_NoRiskConstraint
+SSI: 0.230649
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.055308
+EthicalFairness: 0.730649
+EnergySustainability: 0.992188
+DeploymentEfficiency_ms: 0.285149
+------------------------------------------------------------
+
+Model: A1-NoAtt.pt
+Optimization: O1_None
+Ethics: E2_NoOperatorBalance
+SSI: 0.235547
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.059621
+EthicalFairness: 0.735547
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.271320
+------------------------------------------------------------
+
+Model: A1-NoAtt.pt
+Optimization: O1_None
+Ethics: E3_NoLatentFairness
+SSI: 0.237651
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.059300
+EthicalFairness: 0.737651
+EnergySustainability: 0.996094
+DeploymentEfficiency_ms: 0.279427
+------------------------------------------------------------
+
+Model: A1-NoAtt.pt
+Optimization: O1_None
+Ethics: E4_FullEthicalModel
+SSI: 0.238619
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.056924
+EthicalFairness: 0.738619
+EnergySustainability: 0.996094
+DeploymentEfficiency_ms: 0.445127
+------------------------------------------------------------
+
+Model: A1-NoAtt.pt
+Optimization: O2_Pruning
+Ethics: E1_NoRiskConstraint
+SSI: 0.240657
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.029790
+EthicalFairness: 0.740657
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.274181
+------------------------------------------------------------
+
+Model: A1-NoAtt.pt
+Optimization: O2_Pruning
+Ethics: E2_NoOperatorBalance
+SSI: 0.158429
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.044562
+EthicalFairness: 0.658429
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.388384
+------------------------------------------------------------
+
+Model: A1-NoAtt.pt
+Optimization: O2_Pruning
+Ethics: E3_NoLatentFairness
+SSI: 0.022802
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.034399
+EthicalFairness: 0.522802
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.302792
+------------------------------------------------------------
+
+Model: A1-NoAtt.pt
+Optimization: O2_Pruning
+Ethics: E4_FullEthicalModel
+SSI: 0.090095
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.035434
+EthicalFairness: 0.590095
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.485659
+------------------------------------------------------------
+
+Model: A1-NoAtt.pt
+Optimization: O3_Quantization
+Ethics: E1_NoRiskConstraint
+SSI: 0.244354
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.056329
+EthicalFairness: 0.744354
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.395775
+------------------------------------------------------------
+
+Model: A1-NoAtt.pt
+Optimization: O3_Quantization
+Ethics: E2_NoOperatorBalance
+SSI: 0.243824
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.058137
+EthicalFairness: 0.743824
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.426769
+------------------------------------------------------------
+
+Model: A1-NoAtt.pt
+Optimization: O3_Quantization
+Ethics: E3_NoLatentFairness
+SSI: 0.249013
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.058585
+EthicalFairness: 0.749013
+EnergySustainability: 0.996094
+DeploymentEfficiency_ms: 1.005173
+------------------------------------------------------------
+
+Model: A1-NoAtt.pt
+Optimization: O3_Quantization
+Ethics: E4_FullEthicalModel
+SSI: 0.242632
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.055847
+EthicalFairness: 0.742632
+EnergySustainability: 0.992188
+DeploymentEfficiency_ms: 0.507832
+------------------------------------------------------------
+
+Model: A1-NoAtt.pt
+Optimization: O4_Pruning+Quant
+Ethics: E1_NoRiskConstraint
+SSI: 0.041476
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.021102
+EthicalFairness: 0.541476
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.336098
+------------------------------------------------------------
+
+Model: A1-NoAtt.pt
+Optimization: O4_Pruning+Quant
+Ethics: E2_NoOperatorBalance
+SSI: 0.083149
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.018666
+EthicalFairness: 0.583149
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.380278
+------------------------------------------------------------
+
+Model: A1-NoAtt.pt
+Optimization: O4_Pruning+Quant
+Ethics: E3_NoLatentFairness
+SSI: 0.077862
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.031344
+EthicalFairness: 0.577862
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.470877
+------------------------------------------------------------
+
+Model: A1-NoAtt.pt
+Optimization: O4_Pruning+Quant
+Ethics: E4_FullEthicalModel
+SSI: -0.010408
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.016081
+EthicalFairness: 0.489592
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.420332
+------------------------------------------------------------
+
+Model: A1-Index.pt
+Optimization: O1_None
+Ethics: E1_NoRiskConstraint
+SSI: -0.089504
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.065577
+EthicalFairness: 0.410496
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.373363
+------------------------------------------------------------
+
+Model: A1-Index.pt
+Optimization: O1_None
+Ethics: E2_NoOperatorBalance
+SSI: -0.100206
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.063699
+EthicalFairness: 0.399794
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.535488
+------------------------------------------------------------
+
+Model: A1-Index.pt
+Optimization: O1_None
+Ethics: E3_NoLatentFairness
+SSI: -0.096752
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.060644
+EthicalFairness: 0.403248
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.343800
+------------------------------------------------------------
+
+Model: A1-Index.pt
+Optimization: O1_None
+Ethics: E4_FullEthicalModel
+SSI: -0.099321
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.063410
+EthicalFairness: 0.400679
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.895500
+------------------------------------------------------------
+
+Model: A1-Index.pt
+Optimization: O2_Pruning
+Ethics: E1_NoRiskConstraint
+SSI: -0.127115
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.037809
+EthicalFairness: 0.372885
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.416756
+------------------------------------------------------------
+
+Model: A1-Index.pt
+Optimization: O2_Pruning
+Ethics: E2_NoOperatorBalance
+SSI: -0.081071
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.034814
+EthicalFairness: 0.418929
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.397682
+------------------------------------------------------------
+
+Model: A1-Index.pt
+Optimization: O2_Pruning
+Ethics: E3_NoLatentFairness
+SSI: -0.093447
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.039150
+EthicalFairness: 0.406554
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.333548
+------------------------------------------------------------
+
+Model: A1-Index.pt
+Optimization: O2_Pruning
+Ethics: E4_FullEthicalModel
+SSI: 0.069310
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.026881
+EthicalFairness: 0.569310
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.537157
+------------------------------------------------------------
+
+Model: A1-Index.pt
+Optimization: O3_Quantization
+Ethics: E1_NoRiskConstraint
+SSI: -0.100133
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.066973
+EthicalFairness: 0.399867
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.241922
+------------------------------------------------------------
+
+Model: A1-Index.pt
+Optimization: O3_Quantization
+Ethics: E2_NoOperatorBalance
+SSI: -0.097503
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.061639
+EthicalFairness: 0.402497
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.271248
+------------------------------------------------------------
+
+Model: A1-Index.pt
+Optimization: O3_Quantization
+Ethics: E3_NoLatentFairness
+SSI: -0.097612
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.062892
+EthicalFairness: 0.402388
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.988960
+------------------------------------------------------------
+
+Model: A1-Index.pt
+Optimization: O3_Quantization
+Ethics: E4_FullEthicalModel
+SSI: -0.099956
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.067819
+EthicalFairness: 0.400044
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.289368
+------------------------------------------------------------
+
+Model: A1-Index.pt
+Optimization: O4_Pruning+Quant
+Ethics: E1_NoRiskConstraint
+SSI: -0.173928
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.021500
+EthicalFairness: 0.326072
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.353813
+------------------------------------------------------------
+
+Model: A1-Index.pt
+Optimization: O4_Pruning+Quant
+Ethics: E2_NoOperatorBalance
+SSI: -0.042843
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.019063
+EthicalFairness: 0.457157
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.501871
+------------------------------------------------------------
+
+Model: A1-Index.pt
+Optimization: O4_Pruning+Quant
+Ethics: E3_NoLatentFairness
+SSI: 0.036269
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.015994
+EthicalFairness: 0.536269
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.481129
+------------------------------------------------------------
+
+Model: A1-Index.pt
+Optimization: O4_Pruning+Quant
+Ethics: E4_FullEthicalModel
+SSI: -0.020203
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.020397
+EthicalFairness: 0.479797
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.430584
+------------------------------------------------------------
+
+Model: A1-LowDim.pt
+Optimization: O1_None
+Ethics: E1_NoRiskConstraint
+SSI: -0.112481
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.074185
+EthicalFairness: 0.387519
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.347614
+------------------------------------------------------------
+
+Model: A1-LowDim.pt
+Optimization: O1_None
+Ethics: E2_NoOperatorBalance
+SSI: -0.109279
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.079134
+EthicalFairness: 0.390721
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.413418
+------------------------------------------------------------
+
+Model: A1-LowDim.pt
+Optimization: O1_None
+Ethics: E3_NoLatentFairness
+SSI: -0.101108
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.071645
+EthicalFairness: 0.398892
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.384331
+------------------------------------------------------------
+
+Model: A1-LowDim.pt
+Optimization: O1_None
+Ethics: E4_FullEthicalModel
+SSI: -0.104899
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.074780
+EthicalFairness: 0.395101
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.370026
+------------------------------------------------------------
+
+Model: A1-LowDim.pt
+Optimization: O2_Pruning
+Ethics: E1_NoRiskConstraint
+SSI: -0.084985
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.030388
+EthicalFairness: 0.415015
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.459194
+------------------------------------------------------------
+
+Model: A1-LowDim.pt
+Optimization: O2_Pruning
+Ethics: E2_NoOperatorBalance
+SSI: -0.039529
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.043272
+EthicalFairness: 0.460471
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.305580
+------------------------------------------------------------
+
+Model: A1-LowDim.pt
+Optimization: O2_Pruning
+Ethics: E3_NoLatentFairness
+SSI: 0.057869
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.047323
+EthicalFairness: 0.557869
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.460386
+------------------------------------------------------------
+
+Model: A1-LowDim.pt
+Optimization: O2_Pruning
+Ethics: E4_FullEthicalModel
+SSI: -0.046650
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.037559
+EthicalFairness: 0.453350
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.427961
+------------------------------------------------------------
+
+Model: A1-LowDim.pt
+Optimization: O3_Quantization
+Ethics: E1_NoRiskConstraint
+SSI: -0.112856
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.070730
+EthicalFairness: 0.387144
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.464678
+------------------------------------------------------------
+
+Model: A1-LowDim.pt
+Optimization: O3_Quantization
+Ethics: E2_NoOperatorBalance
+SSI: -0.119026
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.074623
+EthicalFairness: 0.380974
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.491619
+------------------------------------------------------------
+
+Model: A1-LowDim.pt
+Optimization: O3_Quantization
+Ethics: E3_NoLatentFairness
+SSI: -0.114821
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.071394
+EthicalFairness: 0.385179
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.449657
+------------------------------------------------------------
+
+Model: A1-LowDim.pt
+Optimization: O3_Quantization
+Ethics: E4_FullEthicalModel
+SSI: -0.120449
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.072883
+EthicalFairness: 0.379551
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.546694
+------------------------------------------------------------
+
+Model: A1-LowDim.pt
+Optimization: O4_Pruning+Quant
+Ethics: E1_NoRiskConstraint
+SSI: -0.033677
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.018065
+EthicalFairness: 0.466323
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.359940
+------------------------------------------------------------
+
+Model: A1-LowDim.pt
+Optimization: O4_Pruning+Quant
+Ethics: E2_NoOperatorBalance
+SSI: 0.036620
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.027307
+EthicalFairness: 0.536620
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.370502
+------------------------------------------------------------
+
+Model: A1-LowDim.pt
+Optimization: O4_Pruning+Quant
+Ethics: E3_NoLatentFairness
+SSI: -0.001936
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.031627
+EthicalFairness: 0.498064
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.507355
+------------------------------------------------------------
+
+Model: A1-LowDim.pt
+Optimization: O4_Pruning+Quant
+Ethics: E4_FullEthicalModel
+SSI: -0.026700
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.011606
+EthicalFairness: 0.473300
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.511169
+------------------------------------------------------------
+
+Model: A2-Det.pt
+Optimization: O1_None
+Ethics: E1_NoRiskConstraint
+SSI: -0.149902
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.047902
+EthicalFairness: 0.350098
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.337601
+------------------------------------------------------------
+
+Model: A2-Det.pt
+Optimization: O1_None
+Ethics: E2_NoOperatorBalance
+SSI: -0.152195
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.045317
+EthicalFairness: 0.347805
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.879049
+------------------------------------------------------------
+
+Model: A2-Det.pt
+Optimization: O1_None
+Ethics: E3_NoLatentFairness
+SSI: -0.150034
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.046832
+EthicalFairness: 0.349966
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.372648
+------------------------------------------------------------
+
+Model: A2-Det.pt
+Optimization: O1_None
+Ethics: E4_FullEthicalModel
+SSI: -0.160508
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.048324
+EthicalFairness: 0.339492
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.496626
+------------------------------------------------------------
+
+Model: A2-Det.pt
+Optimization: O2_Pruning
+Ethics: E1_NoRiskConstraint
+SSI: -0.202175
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.031750
+EthicalFairness: 0.297825
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.517845
+------------------------------------------------------------
+
+Model: A2-Det.pt
+Optimization: O2_Pruning
+Ethics: E2_NoOperatorBalance
+SSI: -0.042479
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.019784
+EthicalFairness: 0.457521
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.553131
+------------------------------------------------------------
+
+Model: A2-Det.pt
+Optimization: O2_Pruning
+Ethics: E3_NoLatentFairness
+SSI: -0.256168
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.039935
+EthicalFairness: 0.243832
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.439405
+------------------------------------------------------------
+
+Model: A2-Det.pt
+Optimization: O2_Pruning
+Ethics: E4_FullEthicalModel
+SSI: -0.195223
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.040445
+EthicalFairness: 0.304777
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.520229
+------------------------------------------------------------
+
+Model: A2-Det.pt
+Optimization: O3_Quantization
+Ethics: E1_NoRiskConstraint
+SSI: -0.157984
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.050094
+EthicalFairness: 0.342016
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.476122
+------------------------------------------------------------
+
+Model: A2-Det.pt
+Optimization: O3_Quantization
+Ethics: E2_NoOperatorBalance
+SSI: -0.157633
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.048208
+EthicalFairness: 0.342367
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.385284
+------------------------------------------------------------
+
+Model: A2-Det.pt
+Optimization: O3_Quantization
+Ethics: E3_NoLatentFairness
+SSI: -0.158064
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.047063
+EthicalFairness: 0.341936
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.423193
+------------------------------------------------------------
+
+Model: A2-Det.pt
+Optimization: O3_Quantization
+Ethics: E4_FullEthicalModel
+SSI: -0.159918
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.047227
+EthicalFairness: 0.340082
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.889063
+------------------------------------------------------------
+
+Model: A2-Det.pt
+Optimization: O4_Pruning+Quant
+Ethics: E1_NoRiskConstraint
+SSI: -0.091442
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.020596
+EthicalFairness: 0.408558
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.259804
+------------------------------------------------------------
+
+Model: A2-Det.pt
+Optimization: O4_Pruning+Quant
+Ethics: E2_NoOperatorBalance
+SSI: 0.023068
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.027514
+EthicalFairness: 0.523068
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.473261
+------------------------------------------------------------
+
+Model: A2-Det.pt
+Optimization: O4_Pruning+Quant
+Ethics: E3_NoLatentFairness
+SSI: 0.022067
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.018259
+EthicalFairness: 0.522066
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.418663
+------------------------------------------------------------
+
+Model: A2-Det.pt
+Optimization: O4_Pruning+Quant
+Ethics: E4_FullEthicalModel
+SSI: -0.027712
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.017648
+EthicalFairness: 0.472288
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.476599
+------------------------------------------------------------
+
+Model: A2-NoVar.pt
+Optimization: O1_None
+Ethics: E1_NoRiskConstraint
+SSI: 0.088581
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.043939
+EthicalFairness: 0.588581
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.585794
+------------------------------------------------------------
+
+Model: A2-NoVar.pt
+Optimization: O1_None
+Ethics: E2_NoOperatorBalance
+SSI: 0.085518
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.041855
+EthicalFairness: 0.585518
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.481367
+------------------------------------------------------------
+
+Model: A2-NoVar.pt
+Optimization: O1_None
+Ethics: E3_NoLatentFairness
+SSI: 0.088520
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.043816
+EthicalFairness: 0.588520
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.413179
+------------------------------------------------------------
+
+Model: A2-NoVar.pt
+Optimization: O1_None
+Ethics: E4_FullEthicalModel
+SSI: 0.087342
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.039020
+EthicalFairness: 0.587342
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.356674
+------------------------------------------------------------
+
+Model: A2-NoVar.pt
+Optimization: O2_Pruning
+Ethics: E1_NoRiskConstraint
+SSI: -0.042688
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.026718
+EthicalFairness: 0.457312
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.342131
+------------------------------------------------------------
+
+Model: A2-NoVar.pt
+Optimization: O2_Pruning
+Ethics: E2_NoOperatorBalance
+SSI: 0.131485
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.032684
+EthicalFairness: 0.631485
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.344515
+------------------------------------------------------------
+
+Model: A2-NoVar.pt
+Optimization: O2_Pruning
+Ethics: E3_NoLatentFairness
+SSI: 0.006796
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.026303
+EthicalFairness: 0.506796
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.343323
+------------------------------------------------------------
+
+Model: A2-NoVar.pt
+Optimization: O2_Pruning
+Ethics: E4_FullEthicalModel
+SSI: -0.000077
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.037188
+EthicalFairness: 0.499923
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.948906
+------------------------------------------------------------
+
+Model: A2-NoVar.pt
+Optimization: O3_Quantization
+Ethics: E1_NoRiskConstraint
+SSI: 0.077229
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.042110
+EthicalFairness: 0.577229
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.377106
+------------------------------------------------------------
+
+Model: A2-NoVar.pt
+Optimization: O3_Quantization
+Ethics: E2_NoOperatorBalance
+SSI: 0.074181
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.042608
+EthicalFairness: 0.574181
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.357866
+------------------------------------------------------------
+
+Model: A2-NoVar.pt
+Optimization: O3_Quantization
+Ethics: E3_NoLatentFairness
+SSI: 0.074866
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.039084
+EthicalFairness: 0.574866
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.360966
+------------------------------------------------------------
+
+Model: A2-NoVar.pt
+Optimization: O3_Quantization
+Ethics: E4_FullEthicalModel
+SSI: 0.078220
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.043709
+EthicalFairness: 0.578220
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.192808
+------------------------------------------------------------
+
+Model: A2-NoVar.pt
+Optimization: O4_Pruning+Quant
+Ethics: E1_NoRiskConstraint
+SSI: 0.032134
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.020005
+EthicalFairness: 0.532134
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.326395
+------------------------------------------------------------
+
+Model: A2-NoVar.pt
+Optimization: O4_Pruning+Quant
+Ethics: E2_NoOperatorBalance
+SSI: 0.047167
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.023495
+EthicalFairness: 0.547167
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.426531
+------------------------------------------------------------
+
+Model: A2-NoVar.pt
+Optimization: O4_Pruning+Quant
+Ethics: E3_NoLatentFairness
+SSI: 0.024166
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.014328
+EthicalFairness: 0.524166
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.437975
+------------------------------------------------------------
+
+Model: A2-NoVar.pt
+Optimization: O4_Pruning+Quant
+Ethics: E4_FullEthicalModel
+SSI: 0.062371
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.025383
+EthicalFairness: 0.562371
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.265287
+------------------------------------------------------------
+
+Model: A3-NoRisk.pt
+Optimization: O1_None
+Ethics: E1_NoRiskConstraint
+SSI: 0.177089
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.041180
+EthicalFairness: 0.677089
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.540018
+------------------------------------------------------------
+
+Model: A3-NoRisk.pt
+Optimization: O1_None
+Ethics: E2_NoOperatorBalance
+SSI: 0.172379
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.045899
+EthicalFairness: 0.672379
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.490904
+------------------------------------------------------------
+
+Model: A3-NoRisk.pt
+Optimization: O1_None
+Ethics: E3_NoLatentFairness
+SSI: 0.182013
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.044126
+EthicalFairness: 0.682013
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.362873
+------------------------------------------------------------
+
+Model: A3-NoRisk.pt
+Optimization: O1_None
+Ethics: E4_FullEthicalModel
+SSI: 0.173672
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.045160
+EthicalFairness: 0.673672
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.388861
+------------------------------------------------------------
+
+Model: A3-NoRisk.pt
+Optimization: O2_Pruning
+Ethics: E1_NoRiskConstraint
+SSI: 0.002243
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.038216
+EthicalFairness: 0.502243
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.866652
+------------------------------------------------------------
+
+Model: A3-NoRisk.pt
+Optimization: O2_Pruning
+Ethics: E2_NoOperatorBalance
+SSI: 0.221442
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.028477
+EthicalFairness: 0.721442
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.455141
+------------------------------------------------------------
+
+Model: A3-NoRisk.pt
+Optimization: O2_Pruning
+Ethics: E3_NoLatentFairness
+SSI: 0.082128
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.026743
+EthicalFairness: 0.582128
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.448465
+------------------------------------------------------------
+
+Model: A3-NoRisk.pt
+Optimization: O2_Pruning
+Ethics: E4_FullEthicalModel
+SSI: 0.047215
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.038869
+EthicalFairness: 0.547215
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.496864
+------------------------------------------------------------
+
+Model: A3-NoRisk.pt
+Optimization: O3_Quantization
+Ethics: E1_NoRiskConstraint
+SSI: 0.177563
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.041905
+EthicalFairness: 0.677563
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.381470
+------------------------------------------------------------
+
+Model: A3-NoRisk.pt
+Optimization: O3_Quantization
+Ethics: E2_NoOperatorBalance
+SSI: 0.170658
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.045616
+EthicalFairness: 0.670658
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.498533
+------------------------------------------------------------
+
+Model: A3-NoRisk.pt
+Optimization: O3_Quantization
+Ethics: E3_NoLatentFairness
+SSI: 0.173784
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.040023
+EthicalFairness: 0.673784
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.470638
+------------------------------------------------------------
+
+Model: A3-NoRisk.pt
+Optimization: O3_Quantization
+Ethics: E4_FullEthicalModel
+SSI: 0.170617
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.041506
+EthicalFairness: 0.670617
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.529766
+------------------------------------------------------------
+
+Model: A3-NoRisk.pt
+Optimization: O4_Pruning+Quant
+Ethics: E1_NoRiskConstraint
+SSI: 0.044687
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.017463
+EthicalFairness: 0.544687
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.420809
+------------------------------------------------------------
+
+Model: A3-NoRisk.pt
+Optimization: O4_Pruning+Quant
+Ethics: E2_NoOperatorBalance
+SSI: 0.064205
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.018202
+EthicalFairness: 0.564205
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.403881
+------------------------------------------------------------
+
+Model: A3-NoRisk.pt
+Optimization: O4_Pruning+Quant
+Ethics: E3_NoLatentFairness
+SSI: 0.050734
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.014782
+EthicalFairness: 0.550734
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.537872
+------------------------------------------------------------
+
+Model: A3-NoRisk.pt
+Optimization: O4_Pruning+Quant
+Ethics: E4_FullEthicalModel
+SSI: 0.006952
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.022250
+EthicalFairness: 0.506952
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.235008
+------------------------------------------------------------
+
+Model: A3-NoLat.pt
+Optimization: O1_None
+Ethics: E1_NoRiskConstraint
+SSI: 0.165681
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.048919
+EthicalFairness: 0.665681
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.386238
+------------------------------------------------------------
+
+Model: A3-NoLat.pt
+Optimization: O1_None
+Ethics: E2_NoOperatorBalance
+SSI: 0.155093
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.047117
+EthicalFairness: 0.655093
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.462460
+------------------------------------------------------------
+
+Model: A3-NoLat.pt
+Optimization: O1_None
+Ethics: E3_NoLatentFairness
+SSI: 0.157591
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.049666
+EthicalFairness: 0.657591
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.591993
+------------------------------------------------------------
+
+Model: A3-NoLat.pt
+Optimization: O1_None
+Ethics: E4_FullEthicalModel
+SSI: 0.163308
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.045256
+EthicalFairness: 0.663308
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.744032
+------------------------------------------------------------
+
+Model: A3-NoLat.pt
+Optimization: O2_Pruning
+Ethics: E1_NoRiskConstraint
+SSI: 0.031352
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.039295
+EthicalFairness: 0.531352
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.964642
+------------------------------------------------------------
+
+Model: A3-NoLat.pt
+Optimization: O2_Pruning
+Ethics: E2_NoOperatorBalance
+SSI: 0.066985
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.035150
+EthicalFairness: 0.566985
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 2.964735
+------------------------------------------------------------
+
+Model: A3-NoLat.pt
+Optimization: O2_Pruning
+Ethics: E3_NoLatentFairness
+SSI: 0.093977
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.036668
+EthicalFairness: 0.593977
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.473976
+------------------------------------------------------------
+
+Model: A3-NoLat.pt
+Optimization: O2_Pruning
+Ethics: E4_FullEthicalModel
+SSI: 0.088960
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.030020
+EthicalFairness: 0.588960
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.383139
+------------------------------------------------------------
+
+Model: A3-NoLat.pt
+Optimization: O3_Quantization
+Ethics: E1_NoRiskConstraint
+SSI: 0.166411
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.051301
+EthicalFairness: 0.666411
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.373840
+------------------------------------------------------------
+
+Model: A3-NoLat.pt
+Optimization: O3_Quantization
+Ethics: E2_NoOperatorBalance
+SSI: 0.160405
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.051770
+EthicalFairness: 0.660405
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.435352
+------------------------------------------------------------
+
+Model: A3-NoLat.pt
+Optimization: O3_Quantization
+Ethics: E3_NoLatentFairness
+SSI: 0.164635
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.050483
+EthicalFairness: 0.664635
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.403404
+------------------------------------------------------------
+
+Model: A3-NoLat.pt
+Optimization: O3_Quantization
+Ethics: E4_FullEthicalModel
+SSI: 0.161641
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.050132
+EthicalFairness: 0.661641
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.469208
+------------------------------------------------------------
+
+Model: A3-NoLat.pt
+Optimization: O4_Pruning+Quant
+Ethics: E1_NoRiskConstraint
+SSI: 0.037693
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.019168
+EthicalFairness: 0.537693
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.361443
+------------------------------------------------------------
+
+Model: A3-NoLat.pt
+Optimization: O4_Pruning+Quant
+Ethics: E2_NoOperatorBalance
+SSI: -0.003264
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.018585
+EthicalFairness: 0.496736
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.362158
+------------------------------------------------------------
+
+Model: A3-NoLat.pt
+Optimization: O4_Pruning+Quant
+Ethics: E3_NoLatentFairness
+SSI: 0.065045
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.019064
+EthicalFairness: 0.565045
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.534773
+------------------------------------------------------------
+
+Model: A3-NoLat.pt
+Optimization: O4_Pruning+Quant
+Ethics: E4_FullEthicalModel
+SSI: -0.006480
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.020749
+EthicalFairness: 0.493520
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.525164
+------------------------------------------------------------
+
+Model: A4-NoRisk.pt
+Optimization: O1_None
+Ethics: E1_NoRiskConstraint
+SSI: -0.039486
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.050925
+EthicalFairness: 0.460514
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.381231
+------------------------------------------------------------
+
+Model: A4-NoRisk.pt
+Optimization: O1_None
+Ethics: E2_NoOperatorBalance
+SSI: -0.037850
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.048350
+EthicalFairness: 0.462150
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.333714
+------------------------------------------------------------
+
+Model: A4-NoRisk.pt
+Optimization: O1_None
+Ethics: E3_NoLatentFairness
+SSI: -0.041055
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.054661
+EthicalFairness: 0.458945
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.485897
+------------------------------------------------------------
+
+Model: A4-NoRisk.pt
+Optimization: O1_None
+Ethics: E4_FullEthicalModel
+SSI: -0.038048
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.050665
+EthicalFairness: 0.461952
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.366211
+------------------------------------------------------------
+
+Model: A4-NoRisk.pt
+Optimization: O2_Pruning
+Ethics: E1_NoRiskConstraint
+SSI: -0.003969
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.033769
+EthicalFairness: 0.496031
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.745296
+------------------------------------------------------------
+
+Model: A4-NoRisk.pt
+Optimization: O2_Pruning
+Ethics: E2_NoOperatorBalance
+SSI: 0.023784
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.036576
+EthicalFairness: 0.523784
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.473261
+------------------------------------------------------------
+
+Model: A4-NoRisk.pt
+Optimization: O2_Pruning
+Ethics: E3_NoLatentFairness
+SSI: 0.038351
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.041142
+EthicalFairness: 0.538351
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.302719
+------------------------------------------------------------
+
+Model: A4-NoRisk.pt
+Optimization: O2_Pruning
+Ethics: E4_FullEthicalModel
+SSI: -0.080725
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.045812
+EthicalFairness: 0.419275
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.497341
+------------------------------------------------------------
+
+Model: A4-NoRisk.pt
+Optimization: O3_Quantization
+Ethics: E1_NoRiskConstraint
+SSI: -0.035137
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.050291
+EthicalFairness: 0.464863
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.455784
+------------------------------------------------------------
+
+Model: A4-NoRisk.pt
+Optimization: O3_Quantization
+Ethics: E2_NoOperatorBalance
+SSI: -0.042577
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.049927
+EthicalFairness: 0.457423
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.178265
+------------------------------------------------------------
+
+Model: A4-NoRisk.pt
+Optimization: O3_Quantization
+Ethics: E3_NoLatentFairness
+SSI: -0.037130
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.049557
+EthicalFairness: 0.462870
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.370026
+------------------------------------------------------------
+
+Model: A4-NoRisk.pt
+Optimization: O3_Quantization
+Ethics: E4_FullEthicalModel
+SSI: -0.042153
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.054385
+EthicalFairness: 0.457847
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.544237
+------------------------------------------------------------
+
+Model: A4-NoRisk.pt
+Optimization: O4_Pruning+Quant
+Ethics: E1_NoRiskConstraint
+SSI: -0.022219
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.022153
+EthicalFairness: 0.477781
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.485659
+------------------------------------------------------------
+
+Model: A4-NoRisk.pt
+Optimization: O4_Pruning+Quant
+Ethics: E2_NoOperatorBalance
+SSI: 0.002539
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.017311
+EthicalFairness: 0.502539
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.422239
+------------------------------------------------------------
+
+Model: A4-NoRisk.pt
+Optimization: O4_Pruning+Quant
+Ethics: E3_NoLatentFairness
+SSI: -0.018593
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.014042
+EthicalFairness: 0.481407
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.480652
+------------------------------------------------------------
+
+Model: A4-NoRisk.pt
+Optimization: O4_Pruning+Quant
+Ethics: E4_FullEthicalModel
+SSI: -0.015371
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.023291
+EthicalFairness: 0.484629
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.788689
+------------------------------------------------------------
+
+Model: A4-NoLat.pt
+Optimization: O1_None
+Ethics: E1_NoRiskConstraint
+SSI: 0.172300
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.006810
+EthicalFairness: 0.672300
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.326633
+------------------------------------------------------------
+
+Model: A4-NoLat.pt
+Optimization: O1_None
+Ethics: E2_NoOperatorBalance
+SSI: 0.172160
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.007009
+EthicalFairness: 0.672160
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.474215
+------------------------------------------------------------
+
+Model: A4-NoLat.pt
+Optimization: O1_None
+Ethics: E3_NoLatentFairness
+SSI: 0.172880
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.006177
+EthicalFairness: 0.672880
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.794411
+------------------------------------------------------------
+
+Model: A4-NoLat.pt
+Optimization: O1_None
+Ethics: E4_FullEthicalModel
+SSI: 0.172595
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.006629
+EthicalFairness: 0.672595
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.952005
+------------------------------------------------------------
+
+Model: A4-NoLat.pt
+Optimization: O2_Pruning
+Ethics: E1_NoRiskConstraint
+SSI: 0.084450
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.021946
+EthicalFairness: 0.584450
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.452042
+------------------------------------------------------------
+
+Model: A4-NoLat.pt
+Optimization: O2_Pruning
+Ethics: E2_NoOperatorBalance
+SSI: 0.307057
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.035240
+EthicalFairness: 0.807057
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.369787
+------------------------------------------------------------
+
+Model: A4-NoLat.pt
+Optimization: O2_Pruning
+Ethics: E3_NoLatentFairness
+SSI: 0.040774
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.039973
+EthicalFairness: 0.540774
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.515150
+------------------------------------------------------------
+
+Model: A4-NoLat.pt
+Optimization: O2_Pruning
+Ethics: E4_FullEthicalModel
+SSI: 0.054281
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.019536
+EthicalFairness: 0.554281
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.346422
+------------------------------------------------------------
+
+Model: A4-NoLat.pt
+Optimization: O3_Quantization
+Ethics: E1_NoRiskConstraint
+SSI: 0.172649
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.005504
+EthicalFairness: 0.672649
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.558376
+------------------------------------------------------------
+
+Model: A4-NoLat.pt
+Optimization: O3_Quantization
+Ethics: E2_NoOperatorBalance
+SSI: 0.173087
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.005696
+EthicalFairness: 0.673087
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.358820
+------------------------------------------------------------
+
+Model: A4-NoLat.pt
+Optimization: O3_Quantization
+Ethics: E3_NoLatentFairness
+SSI: 0.172893
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.005841
+EthicalFairness: 0.672893
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.653267
+------------------------------------------------------------
+
+Model: A4-NoLat.pt
+Optimization: O3_Quantization
+Ethics: E4_FullEthicalModel
+SSI: 0.172994
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.005620
+EthicalFairness: 0.672994
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.653982
+------------------------------------------------------------
+
+Model: A4-NoLat.pt
+Optimization: O4_Pruning+Quant
+Ethics: E1_NoRiskConstraint
+SSI: -0.041498
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.011197
+EthicalFairness: 0.458502
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.392437
+------------------------------------------------------------
+
+Model: A4-NoLat.pt
+Optimization: O4_Pruning+Quant
+Ethics: E2_NoOperatorBalance
+SSI: 0.099591
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.021727
+EthicalFairness: 0.599591
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.446320
+------------------------------------------------------------
+
+Model: A4-NoLat.pt
+Optimization: O4_Pruning+Quant
+Ethics: E3_NoLatentFairness
+SSI: -0.005935
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.011134
+EthicalFairness: 0.494065
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.357866
+------------------------------------------------------------
+
+Model: A4-NoLat.pt
+Optimization: O4_Pruning+Quant
+Ethics: E4_FullEthicalModel
+SSI: -0.022835
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.010733
+EthicalFairness: 0.477165
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.354767
+------------------------------------------------------------
+
+Model: S1-NoLISE.pt
+Optimization: O1_None
+Ethics: E1_NoRiskConstraint
+SSI: -0.232222
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.067551
+EthicalFairness: 0.267778
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.543833
+------------------------------------------------------------
+
+Model: S1-NoLISE.pt
+Optimization: O1_None
+Ethics: E2_NoOperatorBalance
+SSI: -0.240204
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.063455
+EthicalFairness: 0.259796
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.521826
+------------------------------------------------------------
+
+Model: S1-NoLISE.pt
+Optimization: O1_None
+Ethics: E3_NoLatentFairness
+SSI: -0.233642
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.062800
+EthicalFairness: 0.266358
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.404358
+------------------------------------------------------------
+
+Model: S1-NoLISE.pt
+Optimization: O1_None
+Ethics: E4_FullEthicalModel
+SSI: -0.235107
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.064657
+EthicalFairness: 0.264893
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.455784
+------------------------------------------------------------
+
+Model: S1-NoLISE.pt
+Optimization: O2_Pruning
+Ethics: E1_NoRiskConstraint
+SSI: 0.026538
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.039077
+EthicalFairness: 0.526538
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.337124
+------------------------------------------------------------
+
+Model: S1-NoLISE.pt
+Optimization: O2_Pruning
+Ethics: E2_NoOperatorBalance
+SSI: -0.047171
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.042574
+EthicalFairness: 0.452829
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.974417
+------------------------------------------------------------
+
+Model: S1-NoLISE.pt
+Optimization: O2_Pruning
+Ethics: E3_NoLatentFairness
+SSI: -0.267402
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.048976
+EthicalFairness: 0.232598
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.482082
+------------------------------------------------------------
+
+Model: S1-NoLISE.pt
+Optimization: O2_Pruning
+Ethics: E4_FullEthicalModel
+SSI: -0.067344
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.054254
+EthicalFairness: 0.432656
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.509977
+------------------------------------------------------------
+
+Model: S1-NoLISE.pt
+Optimization: O3_Quantization
+Ethics: E1_NoRiskConstraint
+SSI: -0.234851
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.066652
+EthicalFairness: 0.265149
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.476599
+------------------------------------------------------------
+
+Model: S1-NoLISE.pt
+Optimization: O3_Quantization
+Ethics: E2_NoOperatorBalance
+SSI: -0.233576
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.062158
+EthicalFairness: 0.266424
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.390053
+------------------------------------------------------------
+
+Model: S1-NoLISE.pt
+Optimization: O3_Quantization
+Ethics: E3_NoLatentFairness
+SSI: -0.239723
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.063194
+EthicalFairness: 0.260278
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.487566
+------------------------------------------------------------
+
+Model: S1-NoLISE.pt
+Optimization: O3_Quantization
+Ethics: E4_FullEthicalModel
+SSI: -0.233571
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.063472
+EthicalFairness: 0.266429
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.354694
+------------------------------------------------------------
+
+Model: S1-NoLISE.pt
+Optimization: O4_Pruning+Quant
+Ethics: E1_NoRiskConstraint
+SSI: -0.037942
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.012593
+EthicalFairness: 0.462058
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.535727
+------------------------------------------------------------
+
+Model: S1-NoLISE.pt
+Optimization: O4_Pruning+Quant
+Ethics: E2_NoOperatorBalance
+SSI: 0.013883
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.011088
+EthicalFairness: 0.513883
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.440121
+------------------------------------------------------------
+
+Model: S1-NoLISE.pt
+Optimization: O4_Pruning+Quant
+Ethics: E3_NoLatentFairness
+SSI: 0.035411
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.023849
+EthicalFairness: 0.535411
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.467300
+------------------------------------------------------------
+
+Model: S1-NoLISE.pt
+Optimization: O4_Pruning+Quant
+Ethics: E4_FullEthicalModel
+SSI: -0.104754
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.026801
+EthicalFairness: 0.395246
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.534939
+------------------------------------------------------------
+
+Model: S2-NoPDDM.pt
+Optimization: O1_None
+Ethics: E1_NoRiskConstraint
+SSI: 0.015418
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.043185
+EthicalFairness: 0.515418
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.348330
+------------------------------------------------------------
+
+Model: S2-NoPDDM.pt
+Optimization: O1_None
+Ethics: E2_NoOperatorBalance
+SSI: 0.013959
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.039568
+EthicalFairness: 0.513959
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.415802
+------------------------------------------------------------
+
+Model: S2-NoPDDM.pt
+Optimization: O1_None
+Ethics: E3_NoLatentFairness
+SSI: 0.008764
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.044762
+EthicalFairness: 0.508764
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.342369
+------------------------------------------------------------
+
+Model: S2-NoPDDM.pt
+Optimization: O1_None
+Ethics: E4_FullEthicalModel
+SSI: 0.015267
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.042691
+EthicalFairness: 0.515267
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.422478
+------------------------------------------------------------
+
+Model: S2-NoPDDM.pt
+Optimization: O2_Pruning
+Ethics: E1_NoRiskConstraint
+SSI: -0.027829
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.034883
+EthicalFairness: 0.472171
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.384331
+------------------------------------------------------------
+
+Model: S2-NoPDDM.pt
+Optimization: O2_Pruning
+Ethics: E2_NoOperatorBalance
+SSI: -0.039443
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.037107
+EthicalFairness: 0.460557
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.459671
+------------------------------------------------------------
+
+Model: S2-NoPDDM.pt
+Optimization: O2_Pruning
+Ethics: E3_NoLatentFairness
+SSI: 0.033713
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.025673
+EthicalFairness: 0.533713
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.330137
+------------------------------------------------------------
+
+Model: S2-NoPDDM.pt
+Optimization: O2_Pruning
+Ethics: E4_FullEthicalModel
+SSI: 0.022060
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.033834
+EthicalFairness: 0.522060
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.447512
+------------------------------------------------------------
+
+Model: S2-NoPDDM.pt
+Optimization: O3_Quantization
+Ethics: E1_NoRiskConstraint
+SSI: 0.012843
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.042837
+EthicalFairness: 0.512843
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.387907
+------------------------------------------------------------
+
+Model: S2-NoPDDM.pt
+Optimization: O3_Quantization
+Ethics: E2_NoOperatorBalance
+SSI: 0.015973
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.042636
+EthicalFairness: 0.515973
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.413895
+------------------------------------------------------------
+
+Model: S2-NoPDDM.pt
+Optimization: O3_Quantization
+Ethics: E3_NoLatentFairness
+SSI: 0.010981
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.045394
+EthicalFairness: 0.510981
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.727177
+------------------------------------------------------------
+
+Model: S2-NoPDDM.pt
+Optimization: O3_Quantization
+Ethics: E4_FullEthicalModel
+SSI: 0.012151
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.040824
+EthicalFairness: 0.512151
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.406431
+------------------------------------------------------------
+
+Model: S2-NoPDDM.pt
+Optimization: O4_Pruning+Quant
+Ethics: E1_NoRiskConstraint
+SSI: -0.062183
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.015923
+EthicalFairness: 0.437817
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.922846
+------------------------------------------------------------
+
+Model: S2-NoPDDM.pt
+Optimization: O4_Pruning+Quant
+Ethics: E2_NoOperatorBalance
+SSI: -0.027310
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.021329
+EthicalFairness: 0.472690
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.416279
+------------------------------------------------------------
+
+Model: S2-NoPDDM.pt
+Optimization: O4_Pruning+Quant
+Ethics: E3_NoLatentFairness
+SSI: 0.029308
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.015601
+EthicalFairness: 0.529308
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.391245
+------------------------------------------------------------
+
+Model: S2-NoPDDM.pt
+Optimization: O4_Pruning+Quant
+Ethics: E4_FullEthicalModel
+SSI: 0.097704
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.020958
+EthicalFairness: 0.597704
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.480890
+------------------------------------------------------------
+
+Model: S3-NoPPN.pt
+Optimization: O1_None
+Ethics: E1_NoRiskConstraint
+SSI: -0.146445
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.047733
+EthicalFairness: 0.353555
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.561476
+------------------------------------------------------------
+
+Model: S3-NoPPN.pt
+Optimization: O1_None
+Ethics: E2_NoOperatorBalance
+SSI: -0.141700
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.047173
+EthicalFairness: 0.358299
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.377178
+------------------------------------------------------------
+
+Model: S3-NoPPN.pt
+Optimization: O1_None
+Ethics: E3_NoLatentFairness
+SSI: -0.143565
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.047554
+EthicalFairness: 0.356435
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.343561
+------------------------------------------------------------
+
+Model: S3-NoPPN.pt
+Optimization: O1_None
+Ethics: E4_FullEthicalModel
+SSI: -0.143782
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.047183
+EthicalFairness: 0.356218
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.779867
+------------------------------------------------------------
+
+Model: S3-NoPPN.pt
+Optimization: O2_Pruning
+Ethics: E1_NoRiskConstraint
+SSI: -0.055322
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.034075
+EthicalFairness: 0.444678
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.422001
+------------------------------------------------------------
+
+Model: S3-NoPPN.pt
+Optimization: O2_Pruning
+Ethics: E2_NoOperatorBalance
+SSI: -0.062387
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.032740
+EthicalFairness: 0.437613
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.663280
+------------------------------------------------------------
+
+Model: S3-NoPPN.pt
+Optimization: O2_Pruning
+Ethics: E3_NoLatentFairness
+SSI: -0.138675
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.041400
+EthicalFairness: 0.361325
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.361443
+------------------------------------------------------------
+
+Model: S3-NoPPN.pt
+Optimization: O2_Pruning
+Ethics: E4_FullEthicalModel
+SSI: 0.018192
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.033431
+EthicalFairness: 0.518192
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.335859
+------------------------------------------------------------
+
+Model: S3-NoPPN.pt
+Optimization: O3_Quantization
+Ethics: E1_NoRiskConstraint
+SSI: -0.144624
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.049272
+EthicalFairness: 0.355376
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.664234
+------------------------------------------------------------
+
+Model: S3-NoPPN.pt
+Optimization: O3_Quantization
+Ethics: E2_NoOperatorBalance
+SSI: -0.148531
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.045682
+EthicalFairness: 0.351469
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.788927
+------------------------------------------------------------
+
+Model: S3-NoPPN.pt
+Optimization: O3_Quantization
+Ethics: E3_NoLatentFairness
+SSI: -0.151232
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.048505
+EthicalFairness: 0.348768
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.505447
+------------------------------------------------------------
+
+Model: S3-NoPPN.pt
+Optimization: O3_Quantization
+Ethics: E4_FullEthicalModel
+SSI: -0.139391
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.049591
+EthicalFairness: 0.360609
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.437975
+------------------------------------------------------------
+
+Model: S3-NoPPN.pt
+Optimization: O4_Pruning+Quant
+Ethics: E1_NoRiskConstraint
+SSI: 0.007838
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.020448
+EthicalFairness: 0.507838
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.392199
+------------------------------------------------------------
+
+Model: S3-NoPPN.pt
+Optimization: O4_Pruning+Quant
+Ethics: E2_NoOperatorBalance
+SSI: -0.017493
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.017018
+EthicalFairness: 0.482507
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.422955
+------------------------------------------------------------
+
+Model: S3-NoPPN.pt
+Optimization: O4_Pruning+Quant
+Ethics: E3_NoLatentFairness
+SSI: 0.022933
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.012528
+EthicalFairness: 0.522933
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.551939
+------------------------------------------------------------
+
+Model: S3-NoPPN.pt
+Optimization: O4_Pruning+Quant
+Ethics: E4_FullEthicalModel
+SSI: 0.066423
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.014708
+EthicalFairness: 0.566423
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.346661
+------------------------------------------------------------
+
+Model: S5-Full.pt
+Optimization: O1_None
+Ethics: E1_NoRiskConstraint
+SSI: -0.021257
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.047465
+EthicalFairness: 0.478743
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.344038
+------------------------------------------------------------
+
+Model: S5-Full.pt
+Optimization: O1_None
+Ethics: E2_NoOperatorBalance
+SSI: -0.027192
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.053337
+EthicalFairness: 0.472808
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.367880
+------------------------------------------------------------
+
+Model: S5-Full.pt
+Optimization: O1_None
+Ethics: E3_NoLatentFairness
+SSI: -0.029825
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.051684
+EthicalFairness: 0.470175
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.369072
+------------------------------------------------------------
+
+Model: S5-Full.pt
+Optimization: O1_None
+Ethics: E4_FullEthicalModel
+SSI: -0.026089
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.050135
+EthicalFairness: 0.473911
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.520634
+------------------------------------------------------------
+
+Model: S5-Full.pt
+Optimization: O2_Pruning
+Ethics: E1_NoRiskConstraint
+SSI: 0.088290
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.032509
+EthicalFairness: 0.588290
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.051664
+------------------------------------------------------------
+
+Model: S5-Full.pt
+Optimization: O2_Pruning
+Ethics: E2_NoOperatorBalance
+SSI: -0.022050
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.028226
+EthicalFairness: 0.477950
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.223564
+------------------------------------------------------------
+
+Model: S5-Full.pt
+Optimization: O2_Pruning
+Ethics: E3_NoLatentFairness
+SSI: 0.017992
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.032722
+EthicalFairness: 0.517992
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.435352
+------------------------------------------------------------
+
+Model: S5-Full.pt
+Optimization: O2_Pruning
+Ethics: E4_FullEthicalModel
+SSI: -0.120694
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.033300
+EthicalFairness: 0.379306
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.388861
+------------------------------------------------------------
+
+Model: S5-Full.pt
+Optimization: O3_Quantization
+Ethics: E1_NoRiskConstraint
+SSI: -0.031561
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.050307
+EthicalFairness: 0.468439
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.426531
+------------------------------------------------------------
+
+Model: S5-Full.pt
+Optimization: O3_Quantization
+Ethics: E2_NoOperatorBalance
+SSI: -0.030802
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.055865
+EthicalFairness: 0.469198
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.504971
+------------------------------------------------------------
+
+Model: S5-Full.pt
+Optimization: O3_Quantization
+Ethics: E3_NoLatentFairness
+SSI: -0.031256
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.054103
+EthicalFairness: 0.468744
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.450373
+------------------------------------------------------------
+
+Model: S5-Full.pt
+Optimization: O3_Quantization
+Ethics: E4_FullEthicalModel
+SSI: -0.028582
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.056300
+EthicalFairness: 0.471418
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.389576
+------------------------------------------------------------
+
+Model: S5-Full.pt
+Optimization: O4_Pruning+Quant
+Ethics: E1_NoRiskConstraint
+SSI: -0.010175
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.017211
+EthicalFairness: 0.489825
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.511169
+------------------------------------------------------------
+
+Model: S5-Full.pt
+Optimization: O4_Pruning+Quant
+Ethics: E2_NoOperatorBalance
+SSI: 0.019217
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.023319
+EthicalFairness: 0.519217
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.452995
+------------------------------------------------------------
+
+Model: S5-Full.pt
+Optimization: O4_Pruning+Quant
+Ethics: E3_NoLatentFairness
+SSI: -0.023943
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.022490
+EthicalFairness: 0.476057
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.817299
+------------------------------------------------------------
+
+Model: S5-Full.pt
+Optimization: O4_Pruning+Quant
+Ethics: E4_FullEthicalModel
+SSI: -0.084055
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.017382
+EthicalFairness: 0.415945
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.543594
+------------------------------------------------------------
+
+Model: A2-Full.pt
+Optimization: O1_None
+Ethics: E1_NoRiskConstraint
+SSI: 0.026741
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.048135
+EthicalFairness: 0.526741
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.850916
+------------------------------------------------------------
+
+Model: A2-Full.pt
+Optimization: O1_None
+Ethics: E2_NoOperatorBalance
+SSI: 0.030322
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.052626
+EthicalFairness: 0.530322
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.535011
+------------------------------------------------------------
+
+Model: A2-Full.pt
+Optimization: O1_None
+Ethics: E3_NoLatentFairness
+SSI: 0.027702
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.047462
+EthicalFairness: 0.527702
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.497103
+------------------------------------------------------------
+
+Model: A2-Full.pt
+Optimization: O1_None
+Ethics: E4_FullEthicalModel
+SSI: 0.027743
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.050982
+EthicalFairness: 0.527743
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.720739
+------------------------------------------------------------
+
+Model: A2-Full.pt
+Optimization: O2_Pruning
+Ethics: E1_NoRiskConstraint
+SSI: 0.039104
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.032274
+EthicalFairness: 0.539104
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.615286
+------------------------------------------------------------
+
+Model: A2-Full.pt
+Optimization: O2_Pruning
+Ethics: E2_NoOperatorBalance
+SSI: 0.018374
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.032806
+EthicalFairness: 0.518374
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.994610
+------------------------------------------------------------
+
+Model: A2-Full.pt
+Optimization: O2_Pruning
+Ethics: E3_NoLatentFairness
+SSI: -0.051996
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.038882
+EthicalFairness: 0.448004
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.473499
+------------------------------------------------------------
+
+Model: A2-Full.pt
+Optimization: O2_Pruning
+Ethics: E4_FullEthicalModel
+SSI: 0.121794
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.044567
+EthicalFairness: 0.621794
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.165867
+------------------------------------------------------------
+
+Model: A2-Full.pt
+Optimization: O3_Quantization
+Ethics: E1_NoRiskConstraint
+SSI: 0.024546
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.055757
+EthicalFairness: 0.524546
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.439167
+------------------------------------------------------------
+
+Model: A2-Full.pt
+Optimization: O3_Quantization
+Ethics: E2_NoOperatorBalance
+SSI: 0.023184
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.052622
+EthicalFairness: 0.523184
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.515223
+------------------------------------------------------------
+
+Model: A2-Full.pt
+Optimization: O3_Quantization
+Ethics: E3_NoLatentFairness
+SSI: 0.021466
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.045452
+EthicalFairness: 0.521466
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.463486
+------------------------------------------------------------
+
+Model: A2-Full.pt
+Optimization: O3_Quantization
+Ethics: E4_FullEthicalModel
+SSI: 0.023408
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.051586
+EthicalFairness: 0.523408
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.510454
+------------------------------------------------------------
+
+Model: A2-Full.pt
+Optimization: O4_Pruning+Quant
+Ethics: E1_NoRiskConstraint
+SSI: 0.003953
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.014941
+EthicalFairness: 0.503953
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.480175
+------------------------------------------------------------
+
+Model: A2-Full.pt
+Optimization: O4_Pruning+Quant
+Ethics: E2_NoOperatorBalance
+SSI: -0.057574
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.023914
+EthicalFairness: 0.442426
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.446320
+------------------------------------------------------------
+
+Model: A2-Full.pt
+Optimization: O4_Pruning+Quant
+Ethics: E3_NoLatentFairness
+SSI: -0.041074
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.019263
+EthicalFairness: 0.458926
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.555754
+------------------------------------------------------------
+
+Model: A2-Full.pt
+Optimization: O4_Pruning+Quant
+Ethics: E4_FullEthicalModel
+SSI: -0.008735
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.017187
+EthicalFairness: 0.491265
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.638485
+------------------------------------------------------------
+
+Model: A2-NoAge.pt
+Optimization: O1_None
+Ethics: E1_NoRiskConstraint
+SSI: 0.087383
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.040897
+EthicalFairness: 0.587383
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.476122
+------------------------------------------------------------
+
+Model: A2-NoAge.pt
+Optimization: O1_None
+Ethics: E2_NoOperatorBalance
+SSI: 0.084009
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.039714
+EthicalFairness: 0.584009
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.504971
+------------------------------------------------------------
+
+Model: A2-NoAge.pt
+Optimization: O1_None
+Ethics: E3_NoLatentFairness
+SSI: 0.091634
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.039485
+EthicalFairness: 0.591634
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.461340
+------------------------------------------------------------
+
+Model: A2-NoAge.pt
+Optimization: O1_None
+Ethics: E4_FullEthicalModel
+SSI: 0.082896
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.034903
+EthicalFairness: 0.582896
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.586748
+------------------------------------------------------------
+
+Model: A2-NoAge.pt
+Optimization: O2_Pruning
+Ethics: E1_NoRiskConstraint
+SSI: 0.087216
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.030678
+EthicalFairness: 0.587216
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.548601
+------------------------------------------------------------
+
+Model: A2-NoAge.pt
+Optimization: O2_Pruning
+Ethics: E2_NoOperatorBalance
+SSI: 0.076889
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.036057
+EthicalFairness: 0.576889
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.492573
+------------------------------------------------------------
+
+Model: A2-NoAge.pt
+Optimization: O2_Pruning
+Ethics: E3_NoLatentFairness
+SSI: 0.102874
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.033379
+EthicalFairness: 0.602874
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.458241
+------------------------------------------------------------
+
+Model: A2-NoAge.pt
+Optimization: O2_Pruning
+Ethics: E4_FullEthicalModel
+SSI: 0.012119
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.021527
+EthicalFairness: 0.512119
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.468969
+------------------------------------------------------------
+
+Model: A2-NoAge.pt
+Optimization: O3_Quantization
+Ethics: E1_NoRiskConstraint
+SSI: 0.093270
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.041092
+EthicalFairness: 0.593270
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.563145
+------------------------------------------------------------
+
+Model: A2-NoAge.pt
+Optimization: O3_Quantization
+Ethics: E2_NoOperatorBalance
+SSI: 0.081340
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.039316
+EthicalFairness: 0.581340
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.475883
+------------------------------------------------------------
+
+Model: A2-NoAge.pt
+Optimization: O3_Quantization
+Ethics: E3_NoLatentFairness
+SSI: 0.088924
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.038865
+EthicalFairness: 0.588925
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.472069
+------------------------------------------------------------
+
+Model: A2-NoAge.pt
+Optimization: O3_Quantization
+Ethics: E4_FullEthicalModel
+SSI: 0.080820
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.038681
+EthicalFairness: 0.580820
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.456095
+------------------------------------------------------------
+
+Model: A2-NoAge.pt
+Optimization: O4_Pruning+Quant
+Ethics: E1_NoRiskConstraint
+SSI: 0.078476
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.016989
+EthicalFairness: 0.578476
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.479698
+------------------------------------------------------------
+
+Model: A2-NoAge.pt
+Optimization: O4_Pruning+Quant
+Ethics: E2_NoOperatorBalance
+SSI: 0.063238
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.012901
+EthicalFairness: 0.563238
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.424623
+------------------------------------------------------------
+
+Model: A2-NoAge.pt
+Optimization: O4_Pruning+Quant
+Ethics: E3_NoLatentFairness
+SSI: -0.015507
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.018448
+EthicalFairness: 0.484493
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.459194
+------------------------------------------------------------
+
+Model: A2-NoAge.pt
+Optimization: O4_Pruning+Quant
+Ethics: E4_FullEthicalModel
+SSI: 0.026288
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.023112
+EthicalFairness: 0.526288
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.489950
+------------------------------------------------------------
+
+Model: A2-NoMaint.pt
+Optimization: O1_None
+Ethics: E1_NoRiskConstraint
+SSI: -0.077565
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.058574
+EthicalFairness: 0.422435
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.470400
+------------------------------------------------------------
+
+Model: A2-NoMaint.pt
+Optimization: O1_None
+Ethics: E2_NoOperatorBalance
+SSI: -0.103082
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.059852
+EthicalFairness: 0.396918
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.463486
+------------------------------------------------------------
+
+Model: A2-NoMaint.pt
+Optimization: O1_None
+Ethics: E3_NoLatentFairness
+SSI: -0.087143
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.052751
+EthicalFairness: 0.412857
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.526905
+------------------------------------------------------------
+
+Model: A2-NoMaint.pt
+Optimization: O1_None
+Ethics: E4_FullEthicalModel
+SSI: -0.101047
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.051210
+EthicalFairness: 0.398953
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.602245
+------------------------------------------------------------
+
+Model: A2-NoMaint.pt
+Optimization: O2_Pruning
+Ethics: E1_NoRiskConstraint
+SSI: -0.158598
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.025569
+EthicalFairness: 0.341402
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.547171
+------------------------------------------------------------
+
+Model: A2-NoMaint.pt
+Optimization: O2_Pruning
+Ethics: E2_NoOperatorBalance
+SSI: -0.091000
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.033723
+EthicalFairness: 0.409000
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.433683
+------------------------------------------------------------
+
+Model: A2-NoMaint.pt
+Optimization: O2_Pruning
+Ethics: E3_NoLatentFairness
+SSI: -0.077431
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.040081
+EthicalFairness: 0.422569
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.456333
+------------------------------------------------------------
+
+Model: A2-NoMaint.pt
+Optimization: O2_Pruning
+Ethics: E4_FullEthicalModel
+SSI: -0.013336
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.027431
+EthicalFairness: 0.486664
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.452518
+------------------------------------------------------------
+
+Model: A2-NoMaint.pt
+Optimization: O3_Quantization
+Ethics: E1_NoRiskConstraint
+SSI: -0.081649
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.056802
+EthicalFairness: 0.418351
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.460863
+------------------------------------------------------------
+
+Model: A2-NoMaint.pt
+Optimization: O3_Quantization
+Ethics: E2_NoOperatorBalance
+SSI: -0.100533
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.054495
+EthicalFairness: 0.399467
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.441313
+------------------------------------------------------------
+
+Model: A2-NoMaint.pt
+Optimization: O3_Quantization
+Ethics: E3_NoLatentFairness
+SSI: -0.087980
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.053502
+EthicalFairness: 0.412020
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.506878
+------------------------------------------------------------
+
+Model: A2-NoMaint.pt
+Optimization: O3_Quantization
+Ethics: E4_FullEthicalModel
+SSI: -0.091067
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.052570
+EthicalFairness: 0.408933
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.456333
+------------------------------------------------------------
+
+Model: A2-NoMaint.pt
+Optimization: O4_Pruning+Quant
+Ethics: E1_NoRiskConstraint
+SSI: 0.001812
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.020456
+EthicalFairness: 0.501812
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.455141
+------------------------------------------------------------
+
+Model: A2-NoMaint.pt
+Optimization: O4_Pruning+Quant
+Ethics: E2_NoOperatorBalance
+SSI: -0.000552
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.009527
+EthicalFairness: 0.499448
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.589609
+------------------------------------------------------------
+
+Model: A2-NoMaint.pt
+Optimization: O4_Pruning+Quant
+Ethics: E3_NoLatentFairness
+SSI: 0.111289
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.022529
+EthicalFairness: 0.611289
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.522303
+------------------------------------------------------------
+
+Model: A2-NoMaint.pt
+Optimization: O4_Pruning+Quant
+Ethics: E4_FullEthicalModel
+SSI: 0.019719
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.010980
+EthicalFairness: 0.519719
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.461340
+------------------------------------------------------------
+
+Model: A3-Full.pt
+Optimization: O1_None
+Ethics: E1_NoRiskConstraint
+SSI: 0.024827
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.047232
+EthicalFairness: 0.524827
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.499964
+------------------------------------------------------------
+
+Model: A3-Full.pt
+Optimization: O1_None
+Ethics: E2_NoOperatorBalance
+SSI: 0.028181
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.045918
+EthicalFairness: 0.528181
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.437021
+------------------------------------------------------------
+
+Model: A3-Full.pt
+Optimization: O1_None
+Ethics: E3_NoLatentFairness
+SSI: 0.028275
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.047393
+EthicalFairness: 0.528275
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.510216
+------------------------------------------------------------
+
+Model: A3-Full.pt
+Optimization: O1_None
+Ethics: E4_FullEthicalModel
+SSI: 0.024025
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.049935
+EthicalFairness: 0.524025
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.538349
+------------------------------------------------------------
+
+Model: A3-Full.pt
+Optimization: O2_Pruning
+Ethics: E1_NoRiskConstraint
+SSI: 0.037956
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.027599
+EthicalFairness: 0.537956
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.533104
+------------------------------------------------------------
+
+Model: A3-Full.pt
+Optimization: O2_Pruning
+Ethics: E2_NoOperatorBalance
+SSI: 0.150566
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.030064
+EthicalFairness: 0.650566
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.562668
+------------------------------------------------------------
+
+Model: A3-Full.pt
+Optimization: O2_Pruning
+Ethics: E3_NoLatentFairness
+SSI: 0.008671
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.041197
+EthicalFairness: 0.508671
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.461102
+------------------------------------------------------------
+
+Model: A3-Full.pt
+Optimization: O2_Pruning
+Ethics: E4_FullEthicalModel
+SSI: 0.039391
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.035457
+EthicalFairness: 0.539391
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.430107
+------------------------------------------------------------
+
+Model: A3-Full.pt
+Optimization: O3_Quantization
+Ethics: E1_NoRiskConstraint
+SSI: 0.020562
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.048256
+EthicalFairness: 0.520562
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.558615
+------------------------------------------------------------
+
+Model: A3-Full.pt
+Optimization: O3_Quantization
+Ethics: E2_NoOperatorBalance
+SSI: 0.015686
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.048697
+EthicalFairness: 0.515686
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.701666
+------------------------------------------------------------
+
+Model: A3-Full.pt
+Optimization: O3_Quantization
+Ethics: E3_NoLatentFairness
+SSI: 0.020281
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.046947
+EthicalFairness: 0.520281
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.476837
+------------------------------------------------------------
+
+Model: A3-Full.pt
+Optimization: O3_Quantization
+Ethics: E4_FullEthicalModel
+SSI: 0.015815
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.045659
+EthicalFairness: 0.515815
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.499725
+------------------------------------------------------------
+
+Model: A3-Full.pt
+Optimization: O4_Pruning+Quant
+Ethics: E1_NoRiskConstraint
+SSI: -0.003795
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.018741
+EthicalFairness: 0.496205
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.395775
+------------------------------------------------------------
+
+Model: A3-Full.pt
+Optimization: O4_Pruning+Quant
+Ethics: E2_NoOperatorBalance
+SSI: -0.060381
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.021891
+EthicalFairness: 0.439619
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.434637
+------------------------------------------------------------
+
+Model: A3-Full.pt
+Optimization: O4_Pruning+Quant
+Ethics: E3_NoLatentFairness
+SSI: 0.140208
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.023940
+EthicalFairness: 0.640208
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.438690
+------------------------------------------------------------
+
+Model: A3-Full.pt
+Optimization: O4_Pruning+Quant
+Ethics: E4_FullEthicalModel
+SSI: 0.014337
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.029147
+EthicalFairness: 0.514337
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 2.447128
+------------------------------------------------------------
+
+Model: A3-Heur.pt
+Optimization: O1_None
+Ethics: E1_NoRiskConstraint
+SSI: -0.106373
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.039606
+EthicalFairness: 0.393627
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.457287
+------------------------------------------------------------
+
+Model: A3-Heur.pt
+Optimization: O1_None
+Ethics: E2_NoOperatorBalance
+SSI: -0.108170
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.039547
+EthicalFairness: 0.391830
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.446796
+------------------------------------------------------------
+
+Model: A3-Heur.pt
+Optimization: O1_None
+Ethics: E3_NoLatentFairness
+SSI: -0.111720
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.041799
+EthicalFairness: 0.388280
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.435591
+------------------------------------------------------------
+
+Model: A3-Heur.pt
+Optimization: O1_None
+Ethics: E4_FullEthicalModel
+SSI: -0.103616
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.041224
+EthicalFairness: 0.396384
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.415564
+------------------------------------------------------------
+
+Model: A3-Heur.pt
+Optimization: O2_Pruning
+Ethics: E1_NoRiskConstraint
+SSI: -0.140739
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.034851
+EthicalFairness: 0.359261
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.524044
+------------------------------------------------------------
+
+Model: A3-Heur.pt
+Optimization: O2_Pruning
+Ethics: E2_NoOperatorBalance
+SSI: -0.011747
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.039646
+EthicalFairness: 0.488253
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.484705
+------------------------------------------------------------
+
+Model: A3-Heur.pt
+Optimization: O2_Pruning
+Ethics: E3_NoLatentFairness
+SSI: -0.065194
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.037146
+EthicalFairness: 0.434806
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.486374
+------------------------------------------------------------
+
+Model: A3-Heur.pt
+Optimization: O2_Pruning
+Ethics: E4_FullEthicalModel
+SSI: -0.100715
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.038417
+EthicalFairness: 0.399285
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.472546
+------------------------------------------------------------
+
+Model: A3-Heur.pt
+Optimization: O3_Quantization
+Ethics: E1_NoRiskConstraint
+SSI: -0.110063
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.040151
+EthicalFairness: 0.389937
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.463009
+------------------------------------------------------------
+
+Model: A3-Heur.pt
+Optimization: O3_Quantization
+Ethics: E2_NoOperatorBalance
+SSI: -0.106483
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.039053
+EthicalFairness: 0.393517
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.444412
+------------------------------------------------------------
+
+Model: A3-Heur.pt
+Optimization: O3_Quantization
+Ethics: E3_NoLatentFairness
+SSI: -0.113965
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.038338
+EthicalFairness: 0.386035
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.426531
+------------------------------------------------------------
+
+Model: A3-Heur.pt
+Optimization: O3_Quantization
+Ethics: E4_FullEthicalModel
+SSI: -0.110457
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.041415
+EthicalFairness: 0.389543
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.409126
+------------------------------------------------------------
+
+Model: A3-Heur.pt
+Optimization: O4_Pruning+Quant
+Ethics: E1_NoRiskConstraint
+SSI: -0.063071
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.012627
+EthicalFairness: 0.436929
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.425577
+------------------------------------------------------------
+
+Model: A3-Heur.pt
+Optimization: O4_Pruning+Quant
+Ethics: E2_NoOperatorBalance
+SSI: 0.046387
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.016117
+EthicalFairness: 0.546387
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.495195
+------------------------------------------------------------
+
+Model: A3-Heur.pt
+Optimization: O4_Pruning+Quant
+Ethics: E3_NoLatentFairness
+SSI: -0.181051
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.022832
+EthicalFairness: 0.318949
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.450611
+------------------------------------------------------------
+
+Model: A3-Heur.pt
+Optimization: O4_Pruning+Quant
+Ethics: E4_FullEthicalModel
+SSI: -0.041583
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.018935
+EthicalFairness: 0.458417
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.545263
+------------------------------------------------------------
+
+Model: A3-Static.pt
+Optimization: O1_None
+Ethics: E1_NoRiskConstraint
+SSI: 0.212841
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.051447
+EthicalFairness: 0.712841
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.512838
+------------------------------------------------------------
+
+Model: A3-Static.pt
+Optimization: O1_None
+Ethics: E2_NoOperatorBalance
+SSI: 0.216623
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.051103
+EthicalFairness: 0.716623
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.502110
+------------------------------------------------------------
+
+Model: A3-Static.pt
+Optimization: O1_None
+Ethics: E3_NoLatentFairness
+SSI: 0.215264
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.045871
+EthicalFairness: 0.715264
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.502586
+------------------------------------------------------------
+
+Model: A3-Static.pt
+Optimization: O1_None
+Ethics: E4_FullEthicalModel
+SSI: 0.212971
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.046607
+EthicalFairness: 0.712971
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.545025
+------------------------------------------------------------
+
+Model: A3-Static.pt
+Optimization: O2_Pruning
+Ethics: E1_NoRiskConstraint
+SSI: 0.169102
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.023323
+EthicalFairness: 0.669102
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.513077
+------------------------------------------------------------
+
+Model: A3-Static.pt
+Optimization: O2_Pruning
+Ethics: E2_NoOperatorBalance
+SSI: -0.014576
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.030686
+EthicalFairness: 0.485424
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.538349
+------------------------------------------------------------
+
+Model: A3-Static.pt
+Optimization: O2_Pruning
+Ethics: E3_NoLatentFairness
+SSI: 0.181557
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.038226
+EthicalFairness: 0.681557
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.550270
+------------------------------------------------------------
+
+Model: A3-Static.pt
+Optimization: O2_Pruning
+Ethics: E4_FullEthicalModel
+SSI: 0.022217
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.031854
+EthicalFairness: 0.522217
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.485182
+------------------------------------------------------------
+
+Model: A3-Static.pt
+Optimization: O3_Quantization
+Ethics: E1_NoRiskConstraint
+SSI: 0.219860
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.049110
+EthicalFairness: 0.719860
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.553608
+------------------------------------------------------------
+
+Model: A3-Static.pt
+Optimization: O3_Quantization
+Ethics: E2_NoOperatorBalance
+SSI: 0.210550
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.045729
+EthicalFairness: 0.710550
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.538111
+------------------------------------------------------------
+
+Model: A3-Static.pt
+Optimization: O3_Quantization
+Ethics: E3_NoLatentFairness
+SSI: 0.222736
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.047724
+EthicalFairness: 0.722736
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.461340
+------------------------------------------------------------
+
+Model: A3-Static.pt
+Optimization: O3_Quantization
+Ethics: E4_FullEthicalModel
+SSI: 0.213112
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.046514
+EthicalFairness: 0.713112
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.531197
+------------------------------------------------------------
+
+Model: A3-Static.pt
+Optimization: O4_Pruning+Quant
+Ethics: E1_NoRiskConstraint
+SSI: -0.014911
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.018650
+EthicalFairness: 0.485089
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.498295
+------------------------------------------------------------
+
+Model: A3-Static.pt
+Optimization: O4_Pruning+Quant
+Ethics: E2_NoOperatorBalance
+SSI: -0.004735
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.018942
+EthicalFairness: 0.495265
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.604391
+------------------------------------------------------------
+
+Model: A3-Static.pt
+Optimization: O4_Pruning+Quant
+Ethics: E3_NoLatentFairness
+SSI: 0.120177
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.010783
+EthicalFairness: 0.620177
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.531673
+------------------------------------------------------------
+
+Model: A3-Static.pt
+Optimization: O4_Pruning+Quant
+Ethics: E4_FullEthicalModel
+SSI: 0.077439
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.023580
+EthicalFairness: 0.577439
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.479698
+------------------------------------------------------------
+
+Model: A4-Full.pt
+Optimization: O1_None
+Ethics: E1_NoRiskConstraint
+SSI: -0.066876
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.041030
+EthicalFairness: 0.433124
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.481606
+------------------------------------------------------------
+
+Model: A4-Full.pt
+Optimization: O1_None
+Ethics: E2_NoOperatorBalance
+SSI: -0.068794
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.042030
+EthicalFairness: 0.431206
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.543833
+------------------------------------------------------------
+
+Model: A4-Full.pt
+Optimization: O1_None
+Ethics: E3_NoLatentFairness
+SSI: -0.069001
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.045170
+EthicalFairness: 0.430999
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.429869
+------------------------------------------------------------
+
+Model: A4-Full.pt
+Optimization: O1_None
+Ethics: E4_FullEthicalModel
+SSI: -0.071340
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.040785
+EthicalFairness: 0.428660
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.632524
+------------------------------------------------------------
+
+Model: A4-Full.pt
+Optimization: O2_Pruning
+Ethics: E1_NoRiskConstraint
+SSI: -0.000589
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.026284
+EthicalFairness: 0.499411
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.449896
+------------------------------------------------------------
+
+Model: A4-Full.pt
+Optimization: O2_Pruning
+Ethics: E2_NoOperatorBalance
+SSI: -0.020880
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.021201
+EthicalFairness: 0.479120
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.455856
+------------------------------------------------------------
+
+Model: A4-Full.pt
+Optimization: O2_Pruning
+Ethics: E3_NoLatentFairness
+SSI: -0.092771
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.027789
+EthicalFairness: 0.407229
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.436783
+------------------------------------------------------------
+
+Model: A4-Full.pt
+Optimization: O2_Pruning
+Ethics: E4_FullEthicalModel
+SSI: -0.022530
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.028399
+EthicalFairness: 0.477470
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.708746
+------------------------------------------------------------
+
+Model: A4-Full.pt
+Optimization: O3_Quantization
+Ethics: E1_NoRiskConstraint
+SSI: -0.064132
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.039973
+EthicalFairness: 0.435868
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.470400
+------------------------------------------------------------
+
+Model: A4-Full.pt
+Optimization: O3_Quantization
+Ethics: E2_NoOperatorBalance
+SSI: -0.062609
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.040205
+EthicalFairness: 0.437391
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.528812
+------------------------------------------------------------
+
+Model: A4-Full.pt
+Optimization: O3_Quantization
+Ethics: E3_NoLatentFairness
+SSI: -0.062036
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.039910
+EthicalFairness: 0.437964
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.472307
+------------------------------------------------------------
+
+Model: A4-Full.pt
+Optimization: O3_Quantization
+Ethics: E4_FullEthicalModel
+SSI: -0.060672
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.039185
+EthicalFairness: 0.439328
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.406504
+------------------------------------------------------------
+
+Model: A4-Full.pt
+Optimization: O4_Pruning+Quant
+Ethics: E1_NoRiskConstraint
+SSI: -0.009261
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.021735
+EthicalFairness: 0.490739
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.640558
+------------------------------------------------------------
+
+Model: A4-Full.pt
+Optimization: O4_Pruning+Quant
+Ethics: E2_NoOperatorBalance
+SSI: 0.007848
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.016191
+EthicalFairness: 0.507848
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.507832
+------------------------------------------------------------
+
+Model: A4-Full.pt
+Optimization: O4_Pruning+Quant
+Ethics: E3_NoLatentFairness
+SSI: 0.002863
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.015006
+EthicalFairness: 0.502863
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.500679
+------------------------------------------------------------
+
+Model: A4-Full.pt
+Optimization: O4_Pruning+Quant
+Ethics: E4_FullEthicalModel
+SSI: -0.005234
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.015605
+EthicalFairness: 0.494766
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.470161
+------------------------------------------------------------
+
+Model: A4-Cost.pt
+Optimization: O1_None
+Ethics: E1_NoRiskConstraint
+SSI: 0.188311
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.061384
+EthicalFairness: 0.688311
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.465393
+------------------------------------------------------------
+
+Model: A4-Cost.pt
+Optimization: O1_None
+Ethics: E2_NoOperatorBalance
+SSI: 0.181284
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.066095
+EthicalFairness: 0.681284
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.443935
+------------------------------------------------------------
+
+Model: A4-Cost.pt
+Optimization: O1_None
+Ethics: E3_NoLatentFairness
+SSI: 0.186045
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.061816
+EthicalFairness: 0.686045
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.586271
+------------------------------------------------------------
+
+Model: A4-Cost.pt
+Optimization: O1_None
+Ethics: E4_FullEthicalModel
+SSI: 0.187068
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.058839
+EthicalFairness: 0.687068
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.555277
+------------------------------------------------------------
+
+Model: A4-Cost.pt
+Optimization: O2_Pruning
+Ethics: E1_NoRiskConstraint
+SSI: 0.067682
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.040901
+EthicalFairness: 0.567682
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.561476
+------------------------------------------------------------
+
+Model: A4-Cost.pt
+Optimization: O2_Pruning
+Ethics: E2_NoOperatorBalance
+SSI: 0.177819
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.038685
+EthicalFairness: 0.677819
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.433207
+------------------------------------------------------------
+
+Model: A4-Cost.pt
+Optimization: O2_Pruning
+Ethics: E3_NoLatentFairness
+SSI: 0.119742
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.037941
+EthicalFairness: 0.619742
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.471115
+------------------------------------------------------------
+
+Model: A4-Cost.pt
+Optimization: O2_Pruning
+Ethics: E4_FullEthicalModel
+SSI: 0.075445
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.030855
+EthicalFairness: 0.575445
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.455856
+------------------------------------------------------------
+
+Model: A4-Cost.pt
+Optimization: O3_Quantization
+Ethics: E1_NoRiskConstraint
+SSI: 0.188544
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.067643
+EthicalFairness: 0.688544
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.447035
+------------------------------------------------------------
+
+Model: A4-Cost.pt
+Optimization: O3_Quantization
+Ethics: E2_NoOperatorBalance
+SSI: 0.189258
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.066301
+EthicalFairness: 0.689258
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.449657
+------------------------------------------------------------
+
+Model: A4-Cost.pt
+Optimization: O3_Quantization
+Ethics: E3_NoLatentFairness
+SSI: 0.187601
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.061384
+EthicalFairness: 0.687601
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.459671
+------------------------------------------------------------
+
+Model: A4-Cost.pt
+Optimization: O3_Quantization
+Ethics: E4_FullEthicalModel
+SSI: 0.191939
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.065861
+EthicalFairness: 0.691939
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.545263
+------------------------------------------------------------
+
+Model: A4-Cost.pt
+Optimization: O4_Pruning+Quant
+Ethics: E1_NoRiskConstraint
+SSI: 0.012027
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.018080
+EthicalFairness: 0.512027
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.470161
+------------------------------------------------------------
+
+Model: A4-Cost.pt
+Optimization: O4_Pruning+Quant
+Ethics: E2_NoOperatorBalance
+SSI: 0.042988
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.017429
+EthicalFairness: 0.542988
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.467062
+------------------------------------------------------------
+
+Model: A4-Cost.pt
+Optimization: O4_Pruning+Quant
+Ethics: E3_NoLatentFairness
+SSI: 0.085083
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.021650
+EthicalFairness: 0.585083
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.555992
+------------------------------------------------------------
+
+Model: A4-Cost.pt
+Optimization: O4_Pruning+Quant
+Ethics: E4_FullEthicalModel
+SSI: 0.056325
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.014135
+EthicalFairness: 0.556325
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.476599
+------------------------------------------------------------
+
+Model: A4-Point.pt
+Optimization: O1_None
+Ethics: E1_NoRiskConstraint
+SSI: 0.126914
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.074862
+EthicalFairness: 0.626914
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.520706
+------------------------------------------------------------
+
+Model: A4-Point.pt
+Optimization: O1_None
+Ethics: E2_NoOperatorBalance
+SSI: 0.133048
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.068560
+EthicalFairness: 0.633048
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.448227
+------------------------------------------------------------
+
+Model: A4-Point.pt
+Optimization: O1_None
+Ethics: E3_NoLatentFairness
+SSI: 0.120852
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.069664
+EthicalFairness: 0.620852
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.498295
+------------------------------------------------------------
+
+Model: A4-Point.pt
+Optimization: O1_None
+Ethics: E4_FullEthicalModel
+SSI: 0.127321
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.071631
+EthicalFairness: 0.627321
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.483751
+------------------------------------------------------------
+
+Model: A4-Point.pt
+Optimization: O2_Pruning
+Ethics: E1_NoRiskConstraint
+SSI: 0.026871
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.036556
+EthicalFairness: 0.526871
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.530243
+------------------------------------------------------------
+
+Model: A4-Point.pt
+Optimization: O2_Pruning
+Ethics: E2_NoOperatorBalance
+SSI: 0.125599
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.047303
+EthicalFairness: 0.625599
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.511408
+------------------------------------------------------------
+
+Model: A4-Point.pt
+Optimization: O2_Pruning
+Ethics: E3_NoLatentFairness
+SSI: 0.025325
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.031312
+EthicalFairness: 0.525325
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.505924
+------------------------------------------------------------
+
+Model: A4-Point.pt
+Optimization: O2_Pruning
+Ethics: E4_FullEthicalModel
+SSI: 0.116028
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.047628
+EthicalFairness: 0.616028
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.474453
+------------------------------------------------------------
+
+Model: A4-Point.pt
+Optimization: O3_Quantization
+Ethics: E1_NoRiskConstraint
+SSI: 0.116020
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.070995
+EthicalFairness: 0.616020
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.827002
+------------------------------------------------------------
+
+Model: A4-Point.pt
+Optimization: O3_Quantization
+Ethics: E2_NoOperatorBalance
+SSI: 0.116635
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.071135
+EthicalFairness: 0.616635
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.457287
+------------------------------------------------------------
+
+Model: A4-Point.pt
+Optimization: O3_Quantization
+Ethics: E3_NoLatentFairness
+SSI: 0.121357
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.075251
+EthicalFairness: 0.621357
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.466585
+------------------------------------------------------------
+
+Model: A4-Point.pt
+Optimization: O3_Quantization
+Ethics: E4_FullEthicalModel
+SSI: 0.122467
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.070972
+EthicalFairness: 0.622467
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.161098
+------------------------------------------------------------
+
+Model: A4-Point.pt
+Optimization: O4_Pruning+Quant
+Ethics: E1_NoRiskConstraint
+SSI: 0.072984
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.031362
+EthicalFairness: 0.572984
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.450850
+------------------------------------------------------------
+
+Model: A4-Point.pt
+Optimization: O4_Pruning+Quant
+Ethics: E2_NoOperatorBalance
+SSI: 0.016607
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.018511
+EthicalFairness: 0.516607
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.493050
+------------------------------------------------------------
+
+Model: A4-Point.pt
+Optimization: O4_Pruning+Quant
+Ethics: E3_NoLatentFairness
+SSI: 0.034443
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.025174
+EthicalFairness: 0.534443
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.410557
+------------------------------------------------------------
+
+Model: A4-Point.pt
+Optimization: O4_Pruning+Quant
+Ethics: E4_FullEthicalModel
+SSI: 0.012666
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.013897
+EthicalFairness: 0.512666
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.430822
+------------------------------------------------------------
+
+Model: A1-Full-LISE.pt
+Optimization: O1_None
+Ethics: E1_NoRiskConstraint
+SSI: 0.022883
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.046517
+EthicalFairness: 0.522883
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.547171
+------------------------------------------------------------
+
+Model: A1-Full-LISE.pt
+Optimization: O1_None
+Ethics: E2_NoOperatorBalance
+SSI: 0.019770
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.050711
+EthicalFairness: 0.519770
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.481129
+------------------------------------------------------------
+
+Model: A1-Full-LISE.pt
+Optimization: O1_None
+Ethics: E3_NoLatentFairness
+SSI: 0.016845
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.047467
+EthicalFairness: 0.516845
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.355482
+------------------------------------------------------------
+
+Model: A1-Full-LISE.pt
+Optimization: O1_None
+Ethics: E4_FullEthicalModel
+SSI: 0.020869
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.044765
+EthicalFairness: 0.520869
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.631571
+------------------------------------------------------------
+
+Model: A1-Full-LISE.pt
+Optimization: O2_Pruning
+Ethics: E1_NoRiskConstraint
+SSI: -0.103284
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.036286
+EthicalFairness: 0.396716
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.503778
+------------------------------------------------------------
+
+Model: A1-Full-LISE.pt
+Optimization: O2_Pruning
+Ethics: E2_NoOperatorBalance
+SSI: -0.020285
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.024813
+EthicalFairness: 0.479715
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.552177
+------------------------------------------------------------
+
+Model: A1-Full-LISE.pt
+Optimization: O2_Pruning
+Ethics: E3_NoLatentFairness
+SSI: 0.047834
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.029270
+EthicalFairness: 0.547834
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.580549
+------------------------------------------------------------
+
+Model: A1-Full-LISE.pt
+Optimization: O2_Pruning
+Ethics: E4_FullEthicalModel
+SSI: -0.098877
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.030378
+EthicalFairness: 0.401123
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.420809
+------------------------------------------------------------
+
+Model: A1-Full-LISE.pt
+Optimization: O3_Quantization
+Ethics: E1_NoRiskConstraint
+SSI: 0.015833
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.045619
+EthicalFairness: 0.515833
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.455141
+------------------------------------------------------------
+
+Model: A1-Full-LISE.pt
+Optimization: O3_Quantization
+Ethics: E2_NoOperatorBalance
+SSI: 0.014033
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.048397
+EthicalFairness: 0.514033
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.488281
+------------------------------------------------------------
+
+Model: A1-Full-LISE.pt
+Optimization: O3_Quantization
+Ethics: E3_NoLatentFairness
+SSI: 0.019225
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.049765
+EthicalFairness: 0.519225
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.484705
+------------------------------------------------------------
+
+Model: A1-Full-LISE.pt
+Optimization: O3_Quantization
+Ethics: E4_FullEthicalModel
+SSI: 0.012752
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.045903
+EthicalFairness: 0.512752
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.623703
+------------------------------------------------------------
+
+Model: A1-Full-LISE.pt
+Optimization: O4_Pruning+Quant
+Ethics: E1_NoRiskConstraint
+SSI: 0.110674
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.025553
+EthicalFairness: 0.610674
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.592232
+------------------------------------------------------------
+
+Model: A1-Full-LISE.pt
+Optimization: O4_Pruning+Quant
+Ethics: E2_NoOperatorBalance
+SSI: -0.107793
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.012312
+EthicalFairness: 0.392207
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.576735
+------------------------------------------------------------
+
+Model: A1-Full-LISE.pt
+Optimization: O4_Pruning+Quant
+Ethics: E3_NoLatentFairness
+SSI: 0.046966
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.017103
+EthicalFairness: 0.546966
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.418186
+------------------------------------------------------------
+
+Model: A1-Full-LISE.pt
+Optimization: O4_Pruning+Quant
+Ethics: E4_FullEthicalModel
+SSI: 0.056859
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.018014
+EthicalFairness: 0.556859
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.459433
+------------------------------------------------------------
+
+Model: PRIME_EV_FULL.pt
+Optimization: O1_None
+Ethics: E1_NoRiskConstraint
+SSI: -0.024143
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.051887
+EthicalFairness: 0.475857
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.517130
+------------------------------------------------------------
+
+Model: PRIME_EV_FULL.pt
+Optimization: O1_None
+Ethics: E2_NoOperatorBalance
+SSI: -0.025286
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.054370
+EthicalFairness: 0.474714
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.499010
+------------------------------------------------------------
+
+Model: PRIME_EV_FULL.pt
+Optimization: O1_None
+Ethics: E3_NoLatentFairness
+SSI: -0.028083
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.049999
+EthicalFairness: 0.471917
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.195192
+------------------------------------------------------------
+
+Model: PRIME_EV_FULL.pt
+Optimization: O1_None
+Ethics: E4_FullEthicalModel
+SSI: -0.018931
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.046141
+EthicalFairness: 0.481069
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.513792
+------------------------------------------------------------
+
+Model: PRIME_EV_FULL.pt
+Optimization: O2_Pruning
+Ethics: E1_NoRiskConstraint
+SSI: -0.046561
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.041962
+EthicalFairness: 0.453439
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.453234
+------------------------------------------------------------
+
+Model: PRIME_EV_FULL.pt
+Optimization: O2_Pruning
+Ethics: E2_NoOperatorBalance
+SSI: 0.008280
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.030774
+EthicalFairness: 0.508280
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.476122
+------------------------------------------------------------
+
+Model: PRIME_EV_FULL.pt
+Optimization: O2_Pruning
+Ethics: E3_NoLatentFairness
+SSI: 0.008443
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.031677
+EthicalFairness: 0.508443
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.564575
+------------------------------------------------------------
+
+Model: PRIME_EV_FULL.pt
+Optimization: O2_Pruning
+Ethics: E4_FullEthicalModel
+SSI: 0.086357
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.030021
+EthicalFairness: 0.586357
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.595093
+------------------------------------------------------------
+
+Model: PRIME_EV_FULL.pt
+Optimization: O3_Quantization
+Ethics: E1_NoRiskConstraint
+SSI: -0.028933
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.053406
+EthicalFairness: 0.471067
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.513315
+------------------------------------------------------------
+
+Model: PRIME_EV_FULL.pt
+Optimization: O3_Quantization
+Ethics: E2_NoOperatorBalance
+SSI: -0.025934
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.051504
+EthicalFairness: 0.474066
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.597000
+------------------------------------------------------------
+
+Model: PRIME_EV_FULL.pt
+Optimization: O3_Quantization
+Ethics: E3_NoLatentFairness
+SSI: -0.035565
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.052491
+EthicalFairness: 0.464435
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.547647
+------------------------------------------------------------
+
+Model: PRIME_EV_FULL.pt
+Optimization: O3_Quantization
+Ethics: E4_FullEthicalModel
+SSI: -0.023372
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.051363
+EthicalFairness: 0.476628
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.784636
+------------------------------------------------------------
+
+Model: PRIME_EV_FULL.pt
+Optimization: O4_Pruning+Quant
+Ethics: E1_NoRiskConstraint
+SSI: 0.037338
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.012219
+EthicalFairness: 0.537338
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.734091
+------------------------------------------------------------
+
+Model: PRIME_EV_FULL.pt
+Optimization: O4_Pruning+Quant
+Ethics: E2_NoOperatorBalance
+SSI: -0.070362
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.021279
+EthicalFairness: 0.429638
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.521898
+------------------------------------------------------------
+
+Model: PRIME_EV_FULL.pt
+Optimization: O4_Pruning+Quant
+Ethics: E3_NoLatentFairness
+SSI: 0.064133
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.013666
+EthicalFairness: 0.564133
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.481606
+------------------------------------------------------------
+
+Model: PRIME_EV_FULL.pt
+Optimization: O4_Pruning+Quant
+Ethics: E4_FullEthicalModel
+SSI: -0.037330
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.014189
+EthicalFairness: 0.462670
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.409365
+------------------------------------------------------------
+
+Model: A2-Full-PDDM.pt
+Optimization: O1_None
+Ethics: E1_NoRiskConstraint
+SSI: 0.021177
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.050009
+EthicalFairness: 0.521177
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.449181
+------------------------------------------------------------
+
+Model: A2-Full-PDDM.pt
+Optimization: O1_None
+Ethics: E2_NoOperatorBalance
+SSI: 0.027543
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.051360
+EthicalFairness: 0.527543
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.473738
+------------------------------------------------------------
+
+Model: A2-Full-PDDM.pt
+Optimization: O1_None
+Ethics: E3_NoLatentFairness
+SSI: 0.029411
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.052078
+EthicalFairness: 0.529411
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.553131
+------------------------------------------------------------
+
+Model: A2-Full-PDDM.pt
+Optimization: O1_None
+Ethics: E4_FullEthicalModel
+SSI: 0.030954
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.050317
+EthicalFairness: 0.530954
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.463963
+------------------------------------------------------------
+
+Model: A2-Full-PDDM.pt
+Optimization: O2_Pruning
+Ethics: E1_NoRiskConstraint
+SSI: 0.061716
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.031017
+EthicalFairness: 0.561716
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.493050
+------------------------------------------------------------
+
+Model: A2-Full-PDDM.pt
+Optimization: O2_Pruning
+Ethics: E2_NoOperatorBalance
+SSI: -0.070499
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.041155
+EthicalFairness: 0.429501
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.477076
+------------------------------------------------------------
+
+Model: A2-Full-PDDM.pt
+Optimization: O2_Pruning
+Ethics: E3_NoLatentFairness
+SSI: 0.029633
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.027108
+EthicalFairness: 0.529633
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.452995
+------------------------------------------------------------
+
+Model: A2-Full-PDDM.pt
+Optimization: O2_Pruning
+Ethics: E4_FullEthicalModel
+SSI: 0.014805
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.029692
+EthicalFairness: 0.514805
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.513792
+------------------------------------------------------------
+
+Model: A2-Full-PDDM.pt
+Optimization: O3_Quantization
+Ethics: E1_NoRiskConstraint
+SSI: 0.020559
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.050479
+EthicalFairness: 0.520559
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.477314
+------------------------------------------------------------
+
+Model: A2-Full-PDDM.pt
+Optimization: O3_Quantization
+Ethics: E2_NoOperatorBalance
+SSI: 0.024037
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.053595
+EthicalFairness: 0.524037
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.457764
+------------------------------------------------------------
+
+Model: A2-Full-PDDM.pt
+Optimization: O3_Quantization
+Ethics: E3_NoLatentFairness
+SSI: 0.015637
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.047411
+EthicalFairness: 0.515637
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.593901
+------------------------------------------------------------
+
+Model: A2-Full-PDDM.pt
+Optimization: O3_Quantization
+Ethics: E4_FullEthicalModel
+SSI: 0.018233
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.048440
+EthicalFairness: 0.518233
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.552893
+------------------------------------------------------------
+
+Model: A2-Full-PDDM.pt
+Optimization: O4_Pruning+Quant
+Ethics: E1_NoRiskConstraint
+SSI: -0.051148
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.023870
+EthicalFairness: 0.448852
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.490904
+------------------------------------------------------------
+
+Model: A2-Full-PDDM.pt
+Optimization: O4_Pruning+Quant
+Ethics: E2_NoOperatorBalance
+SSI: 0.027617
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.012936
+EthicalFairness: 0.527617
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.470400
+------------------------------------------------------------
+
+Model: A2-Full-PDDM.pt
+Optimization: O4_Pruning+Quant
+Ethics: E3_NoLatentFairness
+SSI: 0.078226
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.017335
+EthicalFairness: 0.578226
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.481844
+------------------------------------------------------------
+
+Model: A2-Full-PDDM.pt
+Optimization: O4_Pruning+Quant
+Ethics: E4_FullEthicalModel
+SSI: 0.016045
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.023260
+EthicalFairness: 0.516045
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.448942
+------------------------------------------------------------
+
+Model: A3-Full-PPN.pt
+Optimization: O1_None
+Ethics: E1_NoRiskConstraint
+SSI: 0.027123
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.046934
+EthicalFairness: 0.527123
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.407219
+------------------------------------------------------------
+
+Model: A3-Full-PPN.pt
+Optimization: O1_None
+Ethics: E2_NoOperatorBalance
+SSI: 0.025225
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.046388
+EthicalFairness: 0.525225
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.509977
+------------------------------------------------------------
+
+Model: A3-Full-PPN.pt
+Optimization: O1_None
+Ethics: E3_NoLatentFairness
+SSI: 0.027956
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.049464
+EthicalFairness: 0.527956
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.344753
+------------------------------------------------------------
+
+Model: A3-Full-PPN.pt
+Optimization: O1_None
+Ethics: E4_FullEthicalModel
+SSI: 0.028314
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.047908
+EthicalFairness: 0.528314
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.528574
+------------------------------------------------------------
+
+Model: A3-Full-PPN.pt
+Optimization: O2_Pruning
+Ethics: E1_NoRiskConstraint
+SSI: -0.007515
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.032302
+EthicalFairness: 0.492485
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.436783
+------------------------------------------------------------
+
+Model: A3-Full-PPN.pt
+Optimization: O2_Pruning
+Ethics: E2_NoOperatorBalance
+SSI: 0.065822
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.040559
+EthicalFairness: 0.565822
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.375032
+------------------------------------------------------------
+
+Model: A3-Full-PPN.pt
+Optimization: O2_Pruning
+Ethics: E3_NoLatentFairness
+SSI: -0.073110
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.026455
+EthicalFairness: 0.426890
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.493288
+------------------------------------------------------------
+
+Model: A3-Full-PPN.pt
+Optimization: O2_Pruning
+Ethics: E4_FullEthicalModel
+SSI: 0.028775
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.033555
+EthicalFairness: 0.528775
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.443220
+------------------------------------------------------------
+
+Model: A3-Full-PPN.pt
+Optimization: O3_Quantization
+Ethics: E1_NoRiskConstraint
+SSI: 0.023226
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.048325
+EthicalFairness: 0.523226
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.466585
+------------------------------------------------------------
+
+Model: A3-Full-PPN.pt
+Optimization: O3_Quantization
+Ethics: E2_NoOperatorBalance
+SSI: 0.016836
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.048327
+EthicalFairness: 0.516836
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.450134
+------------------------------------------------------------
+
+Model: A3-Full-PPN.pt
+Optimization: O3_Quantization
+Ethics: E3_NoLatentFairness
+SSI: 0.015411
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.047095
+EthicalFairness: 0.515411
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.570297
+------------------------------------------------------------
+
+Model: A3-Full-PPN.pt
+Optimization: O3_Quantization
+Ethics: E4_FullEthicalModel
+SSI: 0.018129
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.050168
+EthicalFairness: 0.518129
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.426054
+------------------------------------------------------------
+
+Model: A3-Full-PPN.pt
+Optimization: O4_Pruning+Quant
+Ethics: E1_NoRiskConstraint
+SSI: 0.056707
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.027112
+EthicalFairness: 0.556707
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.383139
+------------------------------------------------------------
+
+Model: A3-Full-PPN.pt
+Optimization: O4_Pruning+Quant
+Ethics: E2_NoOperatorBalance
+SSI: 0.003994
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.028098
+EthicalFairness: 0.503994
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.418663
+------------------------------------------------------------
+
+Model: A3-Full-PPN.pt
+Optimization: O4_Pruning+Quant
+Ethics: E3_NoLatentFairness
+SSI: -0.009237
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.025414
+EthicalFairness: 0.490762
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.388384
+------------------------------------------------------------
+
+Model: A3-Full-PPN.pt
+Optimization: O4_Pruning+Quant
+Ethics: E4_FullEthicalModel
+SSI: -0.074656
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.016695
+EthicalFairness: 0.425344
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.463247
+------------------------------------------------------------
+
+Model: A4-Full-RUN.pt
+Optimization: O1_None
+Ethics: E1_NoRiskConstraint
+SSI: -0.064566
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.039592
+EthicalFairness: 0.435434
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.499010
+------------------------------------------------------------
+
+Model: A4-Full-RUN.pt
+Optimization: O1_None
+Ethics: E2_NoOperatorBalance
+SSI: -0.067263
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.040600
+EthicalFairness: 0.432737
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.354528
+------------------------------------------------------------
+
+Model: A4-Full-RUN.pt
+Optimization: O1_None
+Ethics: E3_NoLatentFairness
+SSI: -0.066885
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.041547
+EthicalFairness: 0.433115
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.507355
+------------------------------------------------------------
+
+Model: A4-Full-RUN.pt
+Optimization: O1_None
+Ethics: E4_FullEthicalModel
+SSI: -0.066567
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.040988
+EthicalFairness: 0.433433
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.598120
+------------------------------------------------------------
+
+Model: A4-Full-RUN.pt
+Optimization: O2_Pruning
+Ethics: E1_NoRiskConstraint
+SSI: 0.038585
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.032918
+EthicalFairness: 0.538585
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.359774
+------------------------------------------------------------
+
+Model: A4-Full-RUN.pt
+Optimization: O2_Pruning
+Ethics: E2_NoOperatorBalance
+SSI: -0.005952
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.032898
+EthicalFairness: 0.494048
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.458479
+------------------------------------------------------------
+
+Model: A4-Full-RUN.pt
+Optimization: O2_Pruning
+Ethics: E3_NoLatentFairness
+SSI: -0.100234
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.030349
+EthicalFairness: 0.399767
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.469208
+------------------------------------------------------------
+
+Model: A4-Full-RUN.pt
+Optimization: O2_Pruning
+Ethics: E4_FullEthicalModel
+SSI: 0.018014
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.043340
+EthicalFairness: 0.518014
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.466108
+------------------------------------------------------------
+
+Model: A4-Full-RUN.pt
+Optimization: O3_Quantization
+Ethics: E1_NoRiskConstraint
+SSI: -0.060220
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.041744
+EthicalFairness: 0.439780
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.436306
+------------------------------------------------------------
+
+Model: A4-Full-RUN.pt
+Optimization: O3_Quantization
+Ethics: E2_NoOperatorBalance
+SSI: -0.064451
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.038983
+EthicalFairness: 0.435549
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.730991
+------------------------------------------------------------
+
+Model: A4-Full-RUN.pt
+Optimization: O3_Quantization
+Ethics: E3_NoLatentFairness
+SSI: -0.058938
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.041735
+EthicalFairness: 0.441062
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.368118
+------------------------------------------------------------
+
+Model: A4-Full-RUN.pt
+Optimization: O3_Quantization
+Ethics: E4_FullEthicalModel
+SSI: -0.057349
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.038900
+EthicalFairness: 0.442652
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.547171
+------------------------------------------------------------
+
+Model: A4-Full-RUN.pt
+Optimization: O4_Pruning+Quant
+Ethics: E1_NoRiskConstraint
+SSI: 0.004512
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.012965
+EthicalFairness: 0.504512
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.088619
+------------------------------------------------------------
+
+Model: A4-Full-RUN.pt
+Optimization: O4_Pruning+Quant
+Ethics: E2_NoOperatorBalance
+SSI: 0.019708
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.018804
+EthicalFairness: 0.519708
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.568867
+------------------------------------------------------------
+
+Model: A4-Full-RUN.pt
+Optimization: O4_Pruning+Quant
+Ethics: E3_NoLatentFairness
+SSI: -0.012475
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.018943
+EthicalFairness: 0.487525
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.336170
+------------------------------------------------------------
+
+Model: A4-Full-RUN.pt
+Optimization: O4_Pruning+Quant
+Ethics: E4_FullEthicalModel
+SSI: -0.047386
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.020816
+EthicalFairness: 0.452614
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.016140
+------------------------------------------------------------
+
+Model: S5-PRIME-EV-FULL.pt
+Optimization: O1_None
+Ethics: E1_NoRiskConstraint
+SSI: -0.025623
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.052645
+EthicalFairness: 0.474377
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.433683
+------------------------------------------------------------
+
+Model: S5-PRIME-EV-FULL.pt
+Optimization: O1_None
+Ethics: E2_NoOperatorBalance
+SSI: -0.026789
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.053576
+EthicalFairness: 0.473211
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.479221
+------------------------------------------------------------
+
+Model: S5-PRIME-EV-FULL.pt
+Optimization: O1_None
+Ethics: E3_NoLatentFairness
+SSI: -0.029557
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.050314
+EthicalFairness: 0.470443
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.354052
+------------------------------------------------------------
+
+Model: S5-PRIME-EV-FULL.pt
+Optimization: O1_None
+Ethics: E4_FullEthicalModel
+SSI: -0.024914
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.052518
+EthicalFairness: 0.475086
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.467062
+------------------------------------------------------------
+
+Model: S5-PRIME-EV-FULL.pt
+Optimization: O2_Pruning
+Ethics: E1_NoRiskConstraint
+SSI: -0.006236
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.048116
+EthicalFairness: 0.493764
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.386238
+------------------------------------------------------------
+
+Model: S5-PRIME-EV-FULL.pt
+Optimization: O2_Pruning
+Ethics: E2_NoOperatorBalance
+SSI: 0.019339
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.039977
+EthicalFairness: 0.519339
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.188755
+------------------------------------------------------------
+
+Model: S5-PRIME-EV-FULL.pt
+Optimization: O2_Pruning
+Ethics: E3_NoLatentFairness
+SSI: -0.082008
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.036110
+EthicalFairness: 0.417992
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.443935
+------------------------------------------------------------
+
+Model: S5-PRIME-EV-FULL.pt
+Optimization: O2_Pruning
+Ethics: E4_FullEthicalModel
+SSI: 0.097465
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.034916
+EthicalFairness: 0.597465
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.576735
+------------------------------------------------------------
+
+Model: S5-PRIME-EV-FULL.pt
+Optimization: O3_Quantization
+Ethics: E1_NoRiskConstraint
+SSI: -0.030441
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.052179
+EthicalFairness: 0.469559
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.415087
+------------------------------------------------------------
+
+Model: S5-PRIME-EV-FULL.pt
+Optimization: O3_Quantization
+Ethics: E2_NoOperatorBalance
+SSI: -0.034368
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.053982
+EthicalFairness: 0.465632
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.452995
+------------------------------------------------------------
+
+Model: S5-PRIME-EV-FULL.pt
+Optimization: O3_Quantization
+Ethics: E3_NoLatentFairness
+SSI: -0.026409
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.050163
+EthicalFairness: 0.473592
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 1.263142
+------------------------------------------------------------
+
+Model: S5-PRIME-EV-FULL.pt
+Optimization: O3_Quantization
+Ethics: E4_FullEthicalModel
+SSI: -0.029377
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.051210
+EthicalFairness: 0.470623
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.370502
+------------------------------------------------------------
+
+Model: S5-PRIME-EV-FULL.pt
+Optimization: O4_Pruning+Quant
+Ethics: E1_NoRiskConstraint
+SSI: 0.009313
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.022043
+EthicalFairness: 0.509313
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.340223
+------------------------------------------------------------
+
+Model: S5-PRIME-EV-FULL.pt
+Optimization: O4_Pruning+Quant
+Ethics: E2_NoOperatorBalance
+SSI: 0.090727
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.015884
+EthicalFairness: 0.590727
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.420809
+------------------------------------------------------------
+
+Model: S5-PRIME-EV-FULL.pt
+Optimization: O4_Pruning+Quant
+Ethics: E3_NoLatentFairness
+SSI: -0.005089
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.020929
+EthicalFairness: 0.494911
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.457525
+------------------------------------------------------------
+
+Model: S5-PRIME-EV-FULL.pt
+Optimization: O4_Pruning+Quant
+Ethics: E4_FullEthicalModel
+SSI: 0.001386
+CascadingFailureProb: 0.000000
+OperatorRiskBalance: 0.017620
+EthicalFairness: 0.501386
+EnergySustainability: 1.000000
+DeploymentEfficiency_ms: 0.471115
+------------------------------------------------------------
+
