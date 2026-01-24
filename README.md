@@ -142,7 +142,7 @@ Apache 2.0 License
 ```bibtex
 @article{prime_ev,
   title   = {Probabilistic Representation--Integrated Modeling for EV Charging Infrastructure Placement and Recommendation},
-  author  = {Khan, Ajmal and Khan, Misha Urooj and Kaleem, Zeeshan},
+  author  = {Khan, Misha Urooj, Suleman Ahmad and Kaleem, Zeeshan},
   journal = {IEEE Transactions},
   year    = {2026}
 }
