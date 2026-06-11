@@ -34,12 +34,6 @@ PRIME-EV combines four components in one pipeline:
 
 ![PRIME-EV Architecture](prime_ev_architecture_2.png)
 
-If the image is stored in the `Results/Figures/` folder, use:
-
-```markdown
-![PRIME-EV Architecture](Results/Figures/prime_ev_architecture_2.png)
-```
-
 ---
 
 ## Key Contributions
