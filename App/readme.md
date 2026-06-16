@@ -229,37 +229,6 @@ PRIME_DeploymentImpact_100
 NetworkRank
 ```
 
-## Screenshot Guidance for Papers
-
-For paper figures, avoid one long full-page screenshot. Use separate panels:
-
-```text
-(a) Executive dashboard
-(b) Station profile and diagnostic radar
-(c) Baseline comparison
-(d) Risk versus utility planning view
-(e) Geographic station map and similar stations
-(f) Top priority station results
-```
-
-For full-page capture in Chrome:
-
-```text
-F12 → Ctrl + Shift + P → Capture full size screenshot
-```
-
-For Microsoft Edge:
-
-```text
-Web Capture → Capture Full Page
-```
-
-Recommended export quality:
-
-```text
-300 dpi minimum
-600 dpi preferred for IEEE submission
-```
 
 ## Notes
 
