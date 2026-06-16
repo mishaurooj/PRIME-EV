@@ -20,25 +20,44 @@ PRIME-EV is an interactive Streamlit dashboard for EV charging station prioritiz
 ## Dashboard Preview
 
 ### 1. Executive Overview
-![Executive overview](p1.png)
 
-### 2. Station Profile and Diagnostic Radar
-![Station profile and radar](p2.png)
+![Executive overview](App/p1.png)
 
-### 3. Baseline Comparison
-![Baseline comparison](p3.png)
+---
 
-### 4. Risk versus Utility Planning View
-![Risk utility planning view](p4.png)
+### 2. Station Profile and Multi-Factor Diagnostic Radar
 
-### 5. Geographic Station View and Similar Stations
-![Map and similar stations](p5.png)
+![Station profile and radar](App/p2.png)
+
+---
+
+### 3. Baseline Comparison and Method Scores
+
+![Baseline comparison](App/p3.png)
+
+---
+
+### 4. Network Position Analysis: Risk versus Utility
+
+![Risk utility planning view](App/p4.png)
+
+---
+
+### 5. Geographic Station Visualization and Similar Stations
+
+![Map and similar stations](App/p5.png)
+
+---
 
 ### 6. Top PRIME-EV Priority Stations
-![Top priority stations](p6.png)
 
-### 7. Raw Dataset and Downloadable Results
-![Raw results](p7.png)
+![Top priority stations](App/p6.png)
+
+---
+
+### 7. Raw Dataset Exploration and Downloadable Results
+
+![Raw results](App/p7.png)
 
 ---
 
