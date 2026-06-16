@@ -13,6 +13,33 @@ Official research repository for **PRIME-EV**, a decision-support framework for 
 
 Repository: `https://github.com/mishaurooj/PRIME-EV`
 
+# PRIME-EV Interactive Decision Dashboard
+
+PRIME-EV is an interactive Streamlit dashboard for EV charging station prioritization. It lets you enter a station ID such as `EVS00001` or `EVS00050`, then runs station-level risk assessment, utility ranking, deployment impact analysis, baseline comparison, similarity search, map visualization, and top-priority station screening.
+
+## Dashboard Preview
+
+### 1. Executive Overview
+![Executive overview](p1.png)
+
+### 2. Station Profile and Diagnostic Radar
+![Station profile and radar](p2.png)
+
+### 3. Baseline Comparison
+![Baseline comparison](p3.png)
+
+### 4. Risk versus Utility Planning View
+![Risk utility planning view](p4.png)
+
+### 5. Geographic Station View and Similar Stations
+![Map and similar stations](p5.png)
+
+### 6. Top PRIME-EV Priority Stations
+![Top priority stations](p6.png)
+
+### 7. Raw Dataset and Downloadable Results
+![Raw results](p7.png)
+
 ---
 
 ## Overview
