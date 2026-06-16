@@ -21,15 +21,7 @@ PRIME-EV is an interactive Streamlit dashboard for EV charging station prioritiz
 
 A complete walkthrough of the PRIME-EV Interactive Decision Dashboard is available below.
 
-<p align="center">
-  <a href="./prime-ev-app.mp4">
-    <img src="./App/p1.png" width="900" alt="PRIME-EV Dashboard Demo">
-  </a>
-</p>
-
-<p align="center">
-Click the image above or <a href="./prime-ev-app.mp4">download the demonstration video</a>.
-</p>
+https://github.com/mishaurooj/PRIME-EV/releases/download/v1.0/prime-ev-app.mp4
 
 ## Dashboard Preview
 
