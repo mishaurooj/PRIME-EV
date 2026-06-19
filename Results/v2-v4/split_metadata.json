@@ -1,0 +1,62 @@
+{
+  "strategy": "operator-disjoint",
+  "train_operators": [
+    "ChargePoint",
+    "Greenlots",
+    "Tesla"
+  ],
+  "validation_operators": [
+    "Ionity"
+  ],
+  "test_operators": [
+    "EVgo"
+  ],
+  "n_train": 3020,
+  "n_validation": 978,
+  "n_test": 1002,
+  "risk_weight": 0.6,
+  "demand_weight": 0.4,
+  "pair_threshold": 0.05,
+  "train_pairs": 100000,
+  "validation_pairs": 20000,
+  "test_pairs": 20000,
+  "feature_count": 32,
+  "feature_names": [
+    "Cost (USD/kWh)",
+    "Distance to City (km)",
+    "Charging Capacity (kW)",
+    "Installation Year",
+    "Parking Spots",
+    "Charger Type_AC Level 1",
+    "Charger Type_AC Level 2",
+    "Charger Type_DC Fast Charger",
+    "Connector Types_CCS",
+    "Connector Types_CCS, CHAdeMO",
+    "Connector Types_CCS, Tesla",
+    "Connector Types_CCS, Type 2",
+    "Connector Types_CHAdeMO",
+    "Connector Types_CHAdeMO, CCS",
+    "Connector Types_CHAdeMO, Tesla",
+    "Connector Types_CHAdeMO, Type 2",
+    "Connector Types_Tesla",
+    "Connector Types_Tesla, CCS",
+    "Connector Types_Tesla, CHAdeMO",
+    "Connector Types_Tesla, Type 2",
+    "Connector Types_Type 2",
+    "Connector Types_Type 2, CCS",
+    "Connector Types_Type 2, CHAdeMO",
+    "Connector Types_Type 2, Tesla",
+    "Renewable Energy Source_No",
+    "Renewable Energy Source_Yes",
+    "Maintenance Frequency_Annually",
+    "Maintenance Frequency_Monthly",
+    "Maintenance Frequency_Quarterly",
+    "Availability_24/7",
+    "Availability_6:00-22:00",
+    "Availability_9:00-18:00"
+  ],
+  "label_only_variables": [
+    "Reviews (Rating)",
+    "Usage Stats (avg users/day)"
+  ]
+}

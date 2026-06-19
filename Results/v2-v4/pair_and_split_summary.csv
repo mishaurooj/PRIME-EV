@@ -1,0 +1,5 @@
+Target,Source,Formula,Interpretation,UsedAsInferenceInput,TrainStations,ValidationStations,TestStations,TrainPairs,ValidationPairs,TestPairs
+risk_y_i,Reviews (Rating),1 - training-scaled rating,"rating-derived risk proxy; not observed failure, complaint, or downtime",False,3020,978,1002,100000,20000,20000
+usage_u_i,Usage Stats (avg users/day),training-scaled observed usage,auxiliary demand target,False,3020,978,1002,100000,20000,20000
+preference_g_i,risk_y_i and usage_u_i,0.60*y_i + 0.40*u_i,formula-derived intervention-priority proxy,False,3020,978,1002,100000,20000,20000
+pair_rho_ij,preference_g_i,sign(g_i-g_j) when |g_i-g_j|>0.05,supervised pairwise preference,False,3020,978,1002,100000,20000,20000
