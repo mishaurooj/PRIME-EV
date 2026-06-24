@@ -635,25 +635,6 @@ The following tables preserve the full uploaded results. No rows or columns from
 
 </details>
 
-
-
-<details open>
-<summary><strong>Table M reviewer checklist</strong></summary>
-
-
-| ReviewerConcern                               | AddressedBy                                                                                                                                                 | PrimaryTables      |
-|:----------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------|
-| Alternative prioritization baselines          | Multi-objective weighted sum, Pareto ranking, AHP, TOPSIS, VIKOR, WASPAS, SAW, gradient boosting, random forest, ridge, shallow tree, and simple heuristics | Table_H1, Table_H2 |
-| Statistical significance                      | Paired bootstrap deltas with 95% confidence intervals and p-values for NDCG@10%, Precision@10%, and top-10 utility                                          | Table_I            |
-| Computational complexity and scalability      | Runtime measured across station counts and additional feature dimensions, with asymptotic complexity labels                                                 | Table_J            |
-| Cross-regional validation and transferability | Leave-one-region-out validation using Americas, Europe/Africa, and Asia/Oceania macro-regions                                                               | Table_K1, Table_K2 |
-| Downstream planning outcomes                  | Top-10% utility, regret, usage, capacity, cost, distance, demand-capacity fit, renewable share, and congestion proxy                                        | Table_H1, Table_H3 |
-| Beyond accuracy-only evaluation               | Seven-perspective normalized IEEE-style decision score                                                                                                      | Table_H2           |
-
-
-</details>
-
-
 ---
 
 ## Abbreviations
