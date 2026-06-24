@@ -1,0 +1,2 @@
+UncertaintyType,Coverage80,Width80,Coverage90,Width90,Coverage95,Width95,ResidualSigmaSpearman,AbsResidualMean
+heteroscedastic_aleatoric,1.0,1.8344074397565402,1.0,2.3544138558485748,1.0,2.8054296051208016,0.015478960340885986,0.2524938485806668

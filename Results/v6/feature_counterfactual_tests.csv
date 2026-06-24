@@ -1,0 +1,5 @@
+Feature,Intervention,MeanScoreDelta,AbsMeanScoreDelta
+Cost (USD/kWh),+0.10 scaled units,1.571670964040095e-06,2.885602407332044e-05
+Distance to City (km),+0.10 scaled units,-5.039943062001839e-05,6.0426660638768226e-05
+Charging Capacity (kW),+0.10 scaled units,-3.2196130632655695e-05,3.6715671740239486e-05
+Renewable Energy Source_Yes,+0.10 scaled units,4.437839379534125e-05,4.446750244824216e-05
