@@ -84,7 +84,7 @@ PRIME-EV combines four components in one pipeline:
 
 ## Architecture
 
-![PRIME-EV Architecture](prime_ev_architecture_2.png)
+![PRIME-EV Architecture](prime_ev_architecture_3.png)
 
 ---
 
