@@ -1,0 +1,2 @@
+EpochsExecuted,OptimizerStepsPerEpoch,TotalOptimizerSteps,BestEpoch,InitialValidationSelection,BestValidationSelection,FinalValidationSelection,InitialTrainLoss,FinalTrainLoss
+18,118,2124,8,0.4535378638064114,0.4895391977202278,0.4687206911992181,8.348957865925158,2.1991362733356024

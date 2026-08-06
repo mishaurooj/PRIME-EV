@@ -1,0 +1,5 @@
+Dataset,Flag,Value,Implication
+External_Public_Stations,Exact duplicate rows,470,Exact duplicates are removed before evaluation.
+External_Public_Stations,Missing ratings,0.4740942734709778,Only stations with observed ratings enter the rating-popularity benchmark.
+External_Public_Stations,Mixed geography labels,Maharashtra|Gujarat|Madhya Pradesh|Tamil Nadu|Uttar Pradesh|Rajasthan|Delhi|Bihar,"Results are reported as a public mixed-geography station benchmark, not a single-country benchmark."
+External_PaloAlto_Usage,Small stable-station sample,33,Demand-transfer results require bootstrap intervals and cautious interpretation.

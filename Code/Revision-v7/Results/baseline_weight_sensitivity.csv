@@ -1,0 +1,13 @@
+Method,Metric,Perturbation,Repetitions,Mean,Std,Minimum,Maximum
+AHP_WeightedSum,NDCG_full,"Independent uniform weight multipliers in [0.8, 1.2], then renormalized",100,0.9204614507224204,0.0003607637450521632,0.9192801565308533,0.9209949270540994
+AHP_WeightedSum,Precision_at_10,"Independent uniform weight multipliers in [0.8, 1.2], then renormalized",100,0.0,0.0,0.0,0.0
+AHP_WeightedSum,Precision_at_10_percent,"Independent uniform weight multipliers in [0.8, 1.2], then renormalized",100,0.14831683168316828,0.009542463560924724,0.12871287128712872,0.1782178217821782
+AHP_WeightedSum,Spearman,"Independent uniform weight multipliers in [0.8, 1.2], then renormalized",100,0.009493227528215934,0.002804897686062444,0.0015574058764198655,0.016042490657261772
+TOPSIS,NDCG_full,"Independent uniform weight multipliers in [0.8, 1.2], then renormalized",100,0.91982356297132,0.0006031766413671748,0.9180482281069601,0.921090056074241
+TOPSIS,Precision_at_10,"Independent uniform weight multipliers in [0.8, 1.2], then renormalized",100,0.0,0.0,0.0,0.0
+TOPSIS,Precision_at_10_percent,"Independent uniform weight multipliers in [0.8, 1.2], then renormalized",100,0.15188118811881185,0.01690008046394485,0.10891089108910891,0.18811881188118812
+TOPSIS,Spearman,"Independent uniform weight multipliers in [0.8, 1.2], then renormalized",100,0.004207227658829076,0.004724309888679177,-0.0069187356609652206,0.01864048320406273
+MultiObjective_WeightedSum,NDCG_full,"Independent uniform weight multipliers in [0.8, 1.2], then renormalized",100,0.9210650925212215,0.0005074238196100614,0.9202932492655426,0.9237392468481928
+MultiObjective_WeightedSum,Precision_at_10,"Independent uniform weight multipliers in [0.8, 1.2], then renormalized",100,0.0,0.0,0.0,0.0
+MultiObjective_WeightedSum,Precision_at_10_percent,"Independent uniform weight multipliers in [0.8, 1.2], then renormalized",100,0.12742574257425743,0.010308159417060451,0.10891089108910891,0.15841584158415842
+MultiObjective_WeightedSum,Spearman,"Independent uniform weight multipliers in [0.8, 1.2], then renormalized",100,0.009860444053108796,0.0029767054484065875,0.001707744715095742,0.015358650828448402

@@ -1,0 +1,12 @@
+Check,Value,Interpretation
+Rows,5000,Dataset size
+Columns,17,Raw dataset width (derived ValidationRegion excluded)
+MissingCells,0,Raw missing values
+DuplicateRows,0,Exact duplicate records
+DuplicateStationIDs,0,Identifier uniqueness
+PlaceholderAddressMarkers,500,Records with obvious template/synthetic address markers; verify source provenance
+OperatorCount::ChargePoint,1004,Must match every manuscript table and split manifest
+OperatorCount::EVgo,1002,Must match every manuscript table and split manifest
+OperatorCount::Greenlots,987,Must match every manuscript table and split manifest
+OperatorCount::Ionity,978,Must match every manuscript table and split manifest
+OperatorCount::Tesla,1029,Must match every manuscript table and split manifest

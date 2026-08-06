@@ -1,0 +1,17 @@
+Feature,SourceMedian,SourceMinimum,SourceMaximum,UsedInUSExternal,UsedInPaloExternal,PaloMissingValueHandling
+latitude,34.026202,-89.091257,89.464534,True,True,observed/derived
+longitude,18.4822675,-177.210504,179.664661,True,True,observed/derived
+abs_latitude,34.145125,0.058825,89.464534,True,True,observed/derived
+latitude_sin,0.5595719729311959,-0.999874223996099,0.9999563297801188,True,True,observed/derived
+latitude_cos,0.8276185298912072,0.009345508689967863,0.9999994729539375,True,True,observed/derived
+longitude_sin,0.31686136778582247,-0.9999948496603684,0.9991538590472976,True,True,observed/derived
+longitude_cos,0.03891957097567804,-0.999982872592543,0.999986614202226,True,True,observed/derived
+capacity_kw,150.0,22.0,350.0,True,False,source-training median imputation
+log_capacity,5.017279836814924,3.1354942159291497,5.860786223465865,True,False,source-training median imputation
+connector_count,1.0,1.0,2.0,True,True,observed/derived
+log_connector_count,0.6931471805599453,0.6931471805599453,1.0986122886681098,True,True,observed/derived
+availability_hours,16.0,9.0,24.0,True,False,source-training median imputation
+availability_fraction,0.6666666666666666,0.375,1.0,True,False,source-training median imputation
+capacity_per_connector,75.0,11.0,350.0,True,False,source-training median imputation
+capacity_x_availability,56.25,8.25,350.0,True,False,source-training median imputation
+geographic_interaction,0.07021544330165524,-1.4503159543574855,1.3953900067009322,True,True,observed/derived

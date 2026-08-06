@@ -1,0 +1,4 @@
+Dataset,RawRows,TrainStations,ValidationStations,TestStations,TargetDefinition,ExactDuplicateRows,RowsAfterExactDeduplication,UsableRatedStations,MissingRatingFractionRaw,StatesOrRegions,TopRegionLabels,GeographyAudit,RawSessionRows,UniqueStationNames,StableStations,MinimumActiveDays,MinimumSessions
+Source_MAIN,5000.0,3020.0,978.0,1002.0,0.60*rating-derived-risk+0.40*normalized-usage,,,,,,,,,,,,
+External_Public_Stations,2567.0,,,,0.60*(1-(rating-1)/4)+0.40*percentile(log1p(review_count)),470.0,2097.0,1148.0,0.4740942734709778,19.0,Maharashtra|Gujarat|Madhya Pradesh|Tamil Nadu|Uttar Pradesh|Rajasthan|Delhi|Bihar,Mixed region labels are present; dataset title must not be interpreted as a single-country guarantee.,,,,,
+External_PaloAlto_Usage,,,,,0.50*percentile(sessions_per_active_day)+0.50*percentile(energy_kWh_per_active_day),,,,,,,,259415.0,47.0,33.0,180.0,100.0

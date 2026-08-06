@@ -1,0 +1,8 @@
+Cross-dataset validation response
+================================================================================
+
+We added external validation on two independently sourced datasets using a harmonized common feature core. The public station-level dataset contributes 1148 usable rated stations after exact-row deduplication and evaluates a rating-popularity priority proxy. The Palo Alto dataset contains 259415 charging sessions, aggregated to 33 stable station-level demand records after requiring at least 180 active days and 100 sessions.
+
+Only geographic coordinates, charging capacity, connector count, and operating hours are harmonized as inference variables. Target-side rating, review count, session, user, and energy variables are excluded from all model inputs. Missing Palo Alto capacity and operating-hours variables are imputed using source-training medians and are explicitly reported in the domain-shift table. Source model family and fusion selection use only the source validation split. The primary external results are zero-shot; a secondary public-dataset region-disjoint adaptation experiment is reported separately.
+
+Because the external datasets provide different outcomes, the public-station experiment tests transfer of the rating-popularity ranking task, while the Palo Alto experiment independently tests transfer of the demand head. We do not claim that rating, popularity, and observed charging demand are interchangeable constructs.

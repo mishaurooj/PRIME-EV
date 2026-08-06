@@ -1,0 +1,27 @@
+
+\begin{table*}[!t]
+\centering
+\caption{External cross-dataset validation using a leakage-controlled common feature core. The external public station dataset evaluates a rating--popularity priority proxy, while the Palo Alto usage dataset independently evaluates observed demand. Models are selected using the source validation partition only; no external test labels are used for zero-shot model selection.}
+\label{tab:cross_dataset_v10}
+\scriptsize
+\begin{tabular}{llcccccc}
+\toprule
+Dataset & Method & NDCG & NDCG@10\% & Top-10\% Agreement & Spearman & Pairwise Acc. & Regret@10\%\\
+\midrule
+External\_Public\_Stations & PRIME\_CommonCore\_Full & 0.9060 & 0.5858 & 0.1270 & 0.0242 & 0.5089 & 0.2980\\
+External\_Public\_Stations & PRIME\_NoDemand & 0.8989 & 0.5175 & 0.0957 & 0.0255 & 0.5091 & 0.3523\\
+External\_Public\_Stations & PRIME\_NoDirectFusion & 0.9046 & 0.5533 & 0.1130 & 0.0325 & 0.5119 & 0.3249\\
+External\_Public\_Stations & PRIME\_NoRisk & 0.8962 & 0.5169 & 0.1043 & -0.0050 & 0.4967 & 0.3462\\
+External\_Public\_Stations & Random & 0.8957 & 0.4979 & 0.0991 & -0.0048 & 0.4974 & 0.3663\\
+External\_Public\_Stations & Ridge\_CommonCore & 0.9046 & 0.5946 & 0.1565 & -0.0103 & 0.4940 & 0.2887\\
+External\_PaloAlto\_Usage & PRIME\_DemandHead & 0.8676 & 0.5540 & 0.0000 & 0.4417 & 0.6206 & 0.4053\\
+External\_PaloAlto\_Usage & Random & 0.8414 & 0.5654 & 0.1500 & 0.0311 & 0.5018 & 0.4280\\
+External\_PaloAlto\_Usage & Ridge\_SourcePriority & 0.7759 & 0.3160 & 0.0000 & 0.0317 & 0.5204 & 0.6591\\
+External\_PaloAlto\_Usage & Source\_DirectPriorityHead & 0.8684 & 0.6200 & 0.0000 & 0.2766 & 0.5794 & 0.3924\\
+External\_PaloAlto\_Usage & Source\_RiskHead\_NegativeControl & 0.8676 & 0.5540 & 0.0000 & 0.4417 & 0.6206 & 0.4053\\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\paragraph{Cross-dataset protocol.}
+External validation was conducted on two independently sourced datasets using only harmonizable inference variables: geographic coordinates, charging capacity, connector count, and operating hours. The original rating and usage variables, external ratings, review counts, sessions, and energy outcomes were never used as model inputs. The external public-station experiment evaluates zero-shot transfer to a rating--popularity priority proxy after exact-row deduplication. The Palo Alto experiment aggregates session records to stable station-level demand outcomes using sessions per active day and energy per active day. Dataset-specific target definitions are reported explicitly because the two external sources do not contain the same outcome schema. Source_MAIN: 1002 usable stations; External_Public_Stations: 1148 usable stations; External_PaloAlto_Usage: 33 usable stations. These experiments test transfer of the ranking methodology and its common feature representation; they do not establish that the three outcome constructs are interchangeable.

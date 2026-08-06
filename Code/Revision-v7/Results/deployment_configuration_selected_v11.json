@@ -1,0 +1,17 @@
+{
+  "selection_scope": "validation only",
+  "primary_metric": "NDCG@10%",
+  "quality_tolerance": 0.005,
+  "tie_breakers": [
+    "top-10% agreement",
+    "latency",
+    "parameter count",
+    "pairwise accuracy"
+  ],
+  "selected_configuration": "NoDemandHead",
+  "selected_variant": {
+    "no_dim": true,
+    "no_fusion": true
+  },
+  "note": "This selection identifies the recommended deployment configuration. The complete architecture remains an evaluated methodological variant."
+}

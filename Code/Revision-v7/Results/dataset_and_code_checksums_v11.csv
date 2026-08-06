@@ -1,0 +1,5 @@
+Role,Path,Bytes,SHA256
+main_dataset,D:\other\prime-ev\Dataset\main-ev_charging_stations-dataset.csv,708368,0d6ac97e9b0f6e1dd17fbbfd3e9a6df63b9e10517e20883a0d1c003d17c65776
+canonical_script,D:\other\prime-ev\Code\Revision\PRIME_EV_v12_final_corrected.py,377912,8c85e2e2ca70e4bc2210d7ab7417e976c522b30bac999ed23052f7b67d4c9fed
+external_public_dataset,D:\other\prime-ev\Dataset\ev_data.csv,813994,ceff0989ebf96eb0810b085fc9b65b9d6529f30a4aea5c943d29a7f5b6247e15
+external_usage_dataset,D:\other\prime-ev\Dataset\EVChargingStationUsage.csv,85445823,e65f5f5d3861cdd6bf3da2de97aabe590d7708e001db1532202eec52081ba82c

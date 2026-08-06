@@ -1,0 +1,4 @@
+Dataset,Role,URL
+Source_MAIN,Source training and operator-disjoint internal test,https://www.kaggle.com/datasets/vivekattri/global-ev-charging-stations-dataset
+External_Public_Stations,External station-level rating and popularity validation,https://www.kaggle.com/datasets/pythoxb/ev-charging-stations-dataset
+External_PaloAlto_Usage,External observed charging-demand validation,https://www.kaggle.com/datasets/venkatsairo4899/ev-charging-station-usage-of-california-city

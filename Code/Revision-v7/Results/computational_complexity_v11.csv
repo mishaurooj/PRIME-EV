@@ -1,0 +1,6 @@
+Stage,TimeComplexity,MemoryComplexity,Notes,FeatureCount_F,HiddenDimension_H,LatentDimension_L,ResidualBlocks_B,MeasuredParameterCount,MeasuredModelMemoryMB,MeasuredTrainingTimeSeconds,MeasuredLatencyMsPerStation
+Residual tabular encoder,O(N*(F*H + B*H^2 + H*L)),O(F*H + B*H^2 + H*L),Primary V9/V11 encoder; no feature-order assumption.,58,128,48,3,246433,0.9400672912597656,163.91263239999537,0.0151427145633742
+Legacy outer-product Conv1D,O(N*F^2*C),O(N*F^2) activations,Retained only as a sensitivity/ablation variant.,58,128,48,3,246433,0.9400672912597656,163.91263239999537,0.0151427145633742
+Pairwise training,O(P) sampled pairs per approximate epoch,O(pair_batch_size),P is reported for every split.,58,128,48,3,246433,0.9400672912597656,163.91263239999537,0.0151427145633742
+Inference and ranking,O(N*model_forward + N*log(N)),O(N),Sorting dominates the decision-list construction after inference.,58,128,48,3,246433,0.9400672912597656,163.91263239999537,0.0151427145633742
+Policy-constrained top-k,O(N*log(N) + G*N),O(N),G is the number of operator/access groups.,58,128,48,3,246433,0.9400672912597656,163.91263239999537,0.0151427145633742
