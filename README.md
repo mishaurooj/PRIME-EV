@@ -67,38 +67,6 @@ https://github.com/mishaurooj/PRIME-EV/blob/main/prime-ev-app.mp4
 
 ---
 
-## Overview
-
-EV charging infrastructure planning requires more than a single prediction score. A planner must rank stations under demand variation, station aging, operator differences, cost, distance, renewable usage, and deployment constraints.
-
-PRIME-EV combines four components in one pipeline:
-
-| Module | Full Name | Role |
-|---|---|---|
-| **IRE** | Infrastructure Representation Encoder | Learns structured station representations from heterogeneous attributes. |
-| **IRAM** | Infrastructure Risk Assessment Module | Estimates station-level operational risk and uncertainty descriptors. |
-| **DIM** | Deployment Impact Module | Adds demand-sensitive training regularization. |
-| **PUN** | Priority Utility Network | Produces the final station utility score for prioritization. |
-
----
-
-## Architecture
-
-![PRIME-EV Architecture](prime_ev_architecture_3.png)
-
----
-
-## Key Contributions
-
-- Integrated decision-support architecture for EV charging station prioritization.
-- Structured infrastructure representation instead of flat feature-only modeling.
-- Risk-aware prioritization using operational risk and uncertainty descriptors.
-- Demand-aware training regularization without using the auxiliary output at inference.
-- Ranking-aware station utility learning through the Priority Utility Network.
-- Evaluation across ranking quality, planning impact, robustness, scalability, transferability, and statistical reliability.
-
----
-
 ## Dataset
 
 This repository uses the public **Global EV Charging Stations Dataset**.
