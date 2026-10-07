@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/license-Apache%202.0-7c3aed?style=for-the-badge" />
 </p>
 
-## PRIME-EV: Priority Ranking and Infrastructure Management Engine for EV Networks
+## RIME-EV: A Learning-to-Rank Framework for EV Charging-Station Screening under Indirect Supervision
 
 Official research repository for **PRIME-EV**, a decision-support framework for EV charging infrastructure prioritization and planning.
 
