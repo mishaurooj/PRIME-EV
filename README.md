@@ -140,18 +140,6 @@ python Code/prime_ev_ieee_response_validation.py
 ```
 
 ---
-## Citation
-
-```bibtex
-@article{prime_ev_2026,
-  title   = {PRIME-EV: A Multi-Perspective Learning Framework for EV Charging Infrastructure Prioritization and Planning},
-  author  = {Khan, Misha Urooj and Alkhrijah, Yazeed and Suleman, Ahmad and Adarbah, Haitham and Zulfiqar, Lubaid},
-  journal = {IEEE Open Journal of the Computer Society},
-  year    = {2026}
-}
-```
-
----
 
 ## License
 
